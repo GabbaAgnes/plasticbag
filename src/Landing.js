@@ -10,6 +10,7 @@ class Landing extends Component {
       <div className="Landing">
       LANDING
       <ShoppingCart/> 
+   
       </div>
     );
   }

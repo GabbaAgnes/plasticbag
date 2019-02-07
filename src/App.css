@@ -1,32 +1,72 @@
-.App {
+/*body {background-color : #524c4c; font-family : "Open Sans", sans-serif;}
+
+.App h1 {padding: 40px; text-align: center; font-size: 1.5em;}
+
+li a {text-decoration : none; color : #2d2f31;}
+
+
+.App nav {
+  width : 300px; 
+  background: #d9d9d9;
+  margin : 40px auto; 
+}
+
+.App span {
+  padding : 30px;
+  background : #2d2f31; 
+  color : white;
+  font-size : 1.2em;
+  font-variant : small-caps;
+  cursor : pointer;
+  display: block;
+}
+
+.App span::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+.App .slide {
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
   text-align: center;
+  transition: height .4s ease;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.App .slide li {padding : 30px;}
+
+#touch {position: absolute; opacity: 0; height: 0px;}    
+
+#touch:checked + .slide {height: 150px;} */
+
+*{
+   text-align: center;
+   color: whitesmoke;
+   background: 	#1A151C;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#dialog-window {
+  height: 200px;
+  border: 1px black solid;
 }
 
-.App-link {
-  color: #61dafb;
+#scrollable-content {
+  height: 180px;
+  overflow: auto;
+  background-color: blue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#footer {
+  height: 20px;
+  background-color: green;
+}
+
+img {
+  margin-bottom: 20px;
+  margin-left:15px;
+  
 }

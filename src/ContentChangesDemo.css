@@ -1,0 +1,28 @@
+@keyframes comeIn {
+    0% { transform: scale(.5); opacity: 0; }
+    75% { transform: scale(1.03); opacity: 1; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+#ContentChangesDemo .xmasonry .xblock {
+    animation: comeIn ease 0.5s;
+    animation-iteration-count: 1;
+    transition: left .3s ease, top .3s ease;
+}
+
+/*#ContentChangesDemo .card {
+    position: relative;
+ margin: 7px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px darkgray;
+    background: white;
+    overflow: hidden;
+}*/
+
+#ContentChangesDemo .card img {
+    max-width: 100%;
+}
+
+/*#ContentChangesDemo .card .body {
+    padding: 5px;
+}*/
