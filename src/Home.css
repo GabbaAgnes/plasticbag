@@ -1,4 +1,15 @@
-body{
-    display: none;
+
+
+  div.insidescroll {
+    position: fixed;
+    width: 50%;
+    bottom: 10px;
+    border: 3px solid #8AC007;
+  } 
   
-  }
+
+*{
+  text-align: center;
+  background: white;
+
+}

@@ -13,7 +13,7 @@ class Good extends Component {
      }
       render(){
           return (
-              <div>  <canvas ref="canvas" width={640} height={9000} />
+              <div>  <canvas ref="canvas" width={640} height={400} />
               </div>
           )
       }

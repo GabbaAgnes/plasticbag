@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import axios from 'axios'
 import Good from './canvas'
 
+import CrudApp from './CrudApp'
+
+
 class Divert extends Component {
   postToMlab=()=>{
     axios.post('http://localhost:8080/add', {
@@ -34,7 +37,38 @@ class Divert extends Component {
       <div className="Divert" onClick={this.postToMlab}>
       Divert
        
-      <Good/>
+     
+      <div id="dialog-window">
+              <div id="scrollable-content">
+  
+                  <ul>
+                  
+                    <li>Sample</li>
+                    <li>Sample</li>
+                    <li>Sample</li>
+                    <li>Sample</li>
+                    <li>Sample</li>
+                    <li>Sample</li>
+                    <li>Sample</li>
+                    <li>Sample</li>
+                    <li>Sample</li>
+                    <li>Sample</li>
+                    <li>Sample</li>
+                    <li>Sample</li>
+                    <li>Sample</li>
+                  </ul>
+             </div>
+  
+
+           <div id="footer">
+         </div>
+
+      </div>
+      <Good/>   
+      
+         <CrudApp/>
+         <br/>
+         
       </div>
       
       

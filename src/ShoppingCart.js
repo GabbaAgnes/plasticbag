@@ -7,7 +7,7 @@ import Modal from './Modal';
 
 class ShoppingCart extends Component {
   state = {
-    animal: "zebra",
+    //animal: "zebra",
     status: false
   }
 
@@ -17,22 +17,26 @@ class ShoppingCart extends Component {
     this.setState({ status: !this.state.status })
     console.log('hello');
   }
- changeAnimal=()=> {
+ /*changeAnimal=()=> {
    this.setState({ animal: "corgi"})
  }
+ 
+ {this.state.animal}
+  <Modal  onChangeAnimalClick= {this.changeAnimal} 
+ */
 
 
 
   render() {
     return (
       <div>
-        {this.state.animal}
+       
        
         <button className="place-order" onClick={this.modalToggle}>
           <span className="fa fa-shopping-cart"></span>
 
         </button>
-        <Modal  onChangeAnimalClick= {this.changeAnimal} 
+        <Modal  
                 onModalClick={this.modalToggle} 
                 status={this.state.status} />
       </div>

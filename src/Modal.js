@@ -6,18 +6,18 @@ import ShoppingCart from './ShoppingCart'
 
 class Modal extends Component {
     state = {
-        animal: "zebra",
-        title: "Ova Highchair",
-        description: "From formula to fruits, your baby's got a lot of eating ahead. An Ova high chair is the right place for breakfast, lunch and dinner.",
-        price: "€" + 89
+        
+        title: "WELCOME AND LET'S GET IT",
+        description: "Inspirational knowledge from Greg Mckeown’s book 'Essentialism-The disciplined Pursuit of Less' combined with mostly surrealistist artwork",
+        price: "ʕ•ᴥ•ʔ" + ""
     }
 
-
+//<button className="clickthis" onClick={this.props.onChangeAnimalClick}>click</button>
 
     render() {
         return (
             <div>
-                <button className="clickthis" onClick={this.props.onChangeAnimalClick}>click</button>
+                
                 <div className="modal" data-status={this.props.status}>
                     <div className="modal-left">
                         <span className="price-tag">{this.state.price}</span>
