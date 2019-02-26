@@ -10,21 +10,20 @@ class RecipeApp extends Component {
     super(props);
     this.state = {
       showcases: [
-       /* {
+       {
           
-          title: "Spaghetti",
           instructions: "Open jar of Spaghetti sauce.  Bring to simmer.  Boil water.  Cook pasta until done.  Combine pasta and sauce",
           points: ["pasta", "8 cups water", "1 box spaghetti"],
           img: "./images/1.png"
         },
-        {
+         {
           
-          title: "Milkshake",
+         
           instructions: "Combine ice cream and milk.  Blend until creamy",
           points: ["2 Scoops Ice cream", "8 ounces milk"],
           img: "https://i-h1.pinimg.com/564x/16/3e/76/163e769f56ea106011732092480bd7b9.jpg"
         },
-        { 
+        /*{ 
          
           title: "Avocado Toast",
           instructions: "Toast bread.  Slice avocado and spread on bread.  Add salt, oil, and pepper to taste.",

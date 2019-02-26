@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
-import ShoppingCart from './ShoppingCart'
+import './Modal.css';
+
 
 
 class Modal extends Component {

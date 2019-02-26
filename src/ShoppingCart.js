@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
 import Modal from './Modal';
 
 
@@ -17,14 +16,7 @@ class ShoppingCart extends Component {
     this.setState({ status: !this.state.status })
     console.log('hello');
   }
- /*changeAnimal=()=> {
-   this.setState({ animal: "corgi"})
- }
  
- {this.state.animal}
-  <Modal  onChangeAnimalClick= {this.changeAnimal} 
- */
-
 
 
   render() {
