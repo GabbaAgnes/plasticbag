@@ -198,10 +198,10 @@ export default class Picker extends Component {
 		const { gifs, loading, hasMore } = this.state
 		const rowChunks = gifs.clone().chunk(9)
 		return (
-			<Wrapper>
-				<GiphyPickerWrapper className={'giphy-picker'}>
+			<div className="pickerWrapper">
+				<div id="giphyPickerWrapper" className={'giphy-picker'}>
 				
-					<Input
+					<input
 						name="giphy-search"
 						type="text"
 						className={this.props.inputClassName}
@@ -213,7 +213,7 @@ export default class Picker extends Component {
 						onKeyDown={this.onKeyDown}
 						placeholder={this.props.placeholder}
 					/>
-					<GiphyWrapper>
+					<div className="giphyWrapper">
 						<InfiniteScroll
 							loadMore={this.loadMore}
 							hasMore={!loading && hasMore}
@@ -222,10 +222,10 @@ export default class Picker extends Component {
 							threshold={700}
 						>
 							{!rowChunks.length && loading && this.props.loader}
-							<GiphyWrapperRow>
+							<div className="giphyWrapperRow">
 								{rowChunks.map((gifs, i) => {
 									return (
-										<GiphyColumn key={i}>
+										<div className="giphyColumn" key={i}>
 											{gifs.map((g, j) => {
 												let gifUrl = g.fixed_width.url
 												return (<Giphy
@@ -242,59 +242,23 @@ export default class Picker extends Component {
 												/>)
 
 											})}
-										</GiphyColumn>
+										</div>
 									)
 								})}
-							</GiphyWrapperRow>
+							</div>
 						</InfiniteScroll>
-					</GiphyWrapper>
-				</GiphyPickerWrapper>
+					</div>
+				</div>
 				{this.props.children}
-			</Wrapper>
+			</div>
 		)
 	}
 }
 
-const Wrapper = styled.div`
-	box-sizing: border-box;
-	position: relative;
-`
 
-const GiphyPickerWrapper = styled.div`
-	box-sizing: border-box;
-	position: relative;
-	padding: 10px;
-	border: 1px solid #f1f1f1;
-	border-radius: 4px;
-	background: white;
-	width: 25%;
-	float:left;
-	clear:both;
-	height: 505px;
-	z-index: 100;
-`
 
-const GiphyWrapper = styled.div`
-	box-sizing: border-box;
-	overflow-y: scroll;
-	height: calc(100% - 35px);
-	margin-top: 5px;
-`
 
-const GiphyWrapperRow = styled.div`
-	box-sizing: border-box;
-	display: flex;
-	flex-wrap: wrap;
-	padding: 0 4px;
-`
 
-const GiphyColumn = styled.div`
-	box-sizing: border-box;
-	flex: 100%;
-	max-width: 100%;
-	padding: 0 4px;
-	cursor: pointer;
-`
 
 const Giphy = styled.img`
 	border-radius: 3px;
@@ -303,19 +267,3 @@ const Giphy = styled.img`
 	vertical-align: middle;
 `
 
-const Input = styled.input`
-	background-color: transparent;
-	border: 1px solid #ddd;
-	border-radius: 2px;
-	color: inherit;
-	font-size: 14px;
-	height: auto;
-	line-height: 1;
-	margin: 0;
-	padding: 7px 10px;
-	width: 90%;
-	display: block;
-	&:focus {
-		outline: none;
-	}
-`

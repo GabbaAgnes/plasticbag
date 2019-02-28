@@ -1,13 +1,51 @@
-@media only screen and (max-width: 400px) {
-  Wrapper{
-    padding: 0px;
+
+
+
+
+
+
+@media (min-width: 870px) and (max-width: 992px) {
+  .homewrapper{
+    padding: 2em;
+    border: 2px solid palevioletred;
+    background-image: url("https://media.giphy.com/media/3oEjI7jnahus17FMhq/giphy.gif");
   }
-}
+  
+  }
+  
+  
+  @media (min-width: 700px) and (max-width: 870px) {
+    .homewrapper{
+      padding: 1em;
+      border: 2px solid palevioletred;
+      background-image: url("https://media.giphy.com/media/3oEjI7jnahus17FMhq/giphy.gif");
+    }
+    
+    }
 
 
-
-
-
-
-
-
+    @media (min-width: 600px) and (max-width: 700px) {
+      .homewrapper{
+        padding: 0.5em;
+        border: 2px solid palevioletred;
+        background-image: url("https://media.giphy.com/media/3oEjI7jnahus17FMhq/giphy.gif");
+      }
+    }
+  
+      @media (min-width: 500px) and (max-width: 600px) {
+        .homewrapper{
+          padding: 0.25em;
+          border: 2px solid palevioletred;
+          background-image: url("https://media.giphy.com/media/3oEjI7jnahus17FMhq/giphy.gif");
+        }
+        }
+  
+        @media (min-width: 320px) and (max-width: 500px) {
+          .homewrapper{
+            padding: 0em;
+            border: 0px solid palevioletred;
+            background-image: url("https://media.giphy.com/media/3oEjI7jnahus17FMhq/giphy.gif");
+          }
+          }
+  
+  

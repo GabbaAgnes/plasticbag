@@ -151,7 +151,7 @@
   .modal-right .close:active {
     background: black;
   }
-  
+  /*
   .price-tag {
     position: absolute;
     top: -100px;
@@ -169,5 +169,5 @@
             transform: translate(-50px, -50px);
     transition: all 0.45s ease-in-out 0.85s;
   }
-  
+  */
   

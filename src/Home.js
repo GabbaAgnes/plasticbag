@@ -8,7 +8,7 @@ import RecipeApp from './RecipeApp';
 import CopyExample from './CopyText';
 import ScrollSquares from './ScrollSquares';
 import GetGifs from './GetGifs';
- 
+
 
 class Home extends Component {
   state = {
@@ -39,7 +39,7 @@ class Home extends Component {
   render() {
 
     return (
-      <Wrapper><div>
+      <div className="homewrapper">
 
 
         <Content top={this.state.top} disappear={this.state.disappear}>
@@ -54,8 +54,10 @@ class Home extends Component {
       
 
         <br /><br />
-        <GetGifs/>
+       
         <ScrollSquares/>
+       
+        <GetGifs/>
         
 
         <RecipeApp />
@@ -66,14 +68,14 @@ class Home extends Component {
      
 
       </div>
-      </Wrapper>
+      
 
     )
   }
 }
 
 const Content = styled.div`
-    border: 10px solid #000;
+    
     background-image: url("https://images.unsplash.com/photo-1505835045737-a37cf2e93876?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80");
     width: 100%;
     height: 1000px;
@@ -84,12 +86,8 @@ const Content = styled.div`
    
     visibility: ${props => props.disappear ? "show" : "show"}
 `;
-const Wrapper = styled.section`
-  padding: 2em;
-  border: 2px solid palevioletred;
-  background-image: url("https://media.giphy.com/media/3oEjI7jnahus17FMhq/giphy.gif");
 
-`;
 
 
 export default Home;
+/*border: 10px solid #000;*/

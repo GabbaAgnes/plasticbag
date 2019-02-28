@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './ScrollSquares.css';
 import CopyExample from './CopyText';
-
+import LightboxExample from './LightBox'; 
 
 class ScrollSquares extends Component {
   
@@ -10,10 +10,10 @@ class ScrollSquares extends Component {
     
     return (
       <div >
-       <div className="horizontal-scroll-wrapper squares">
+       <div className="horizontal-scroll-wrapper texts">
           <div>item 1</div>
           <div>item 2<CopyExample/></div>
-          <div>item 3</div>
+          <div><CopyExample/></div>
           <div>item 4</div>
           <div>item 5</div>
           <div>item 6</div>
@@ -27,7 +27,8 @@ class ScrollSquares extends Component {
           <div>item 14</div>
 
         </div>
-
+        <div>
+        <LightboxExample/>
         <div className="horizontal-scroll-wrapper squares">
           <div>item 1</div>
           <div>item 2</div>
@@ -44,6 +45,7 @@ class ScrollSquares extends Component {
           <div>item 13</div>
           <div>item 14</div>
 
+        </div>
         </div>
       </div>
     )

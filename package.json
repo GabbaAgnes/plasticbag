@@ -9,6 +9,7 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-giphy-component": "^1.0.5",
+    "react-image-lightbox": "^5.1.0",
     "react-responsive-modal": "^3.6.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.3",

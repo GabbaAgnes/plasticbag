@@ -9,7 +9,7 @@ class Modal extends Component {
         
         title: "WELCOME AND LET'S GET IT",
         description: "Inspirational knowledge from Greg Mckeown’s book 'Essentialism-The disciplined Pursuit of Less' combined with mostly surrealistist artwork",
-        price: "ʕ•ᴥ•ʔ" + ""
+       
     }
 
 //<button className="clickthis" onClick={this.props.onChangeAnimalClick}>click</button>
