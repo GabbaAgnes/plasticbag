@@ -99,14 +99,7 @@ class RecipeInput extends Component {
             autoComplete='off'
             value={instructions}
             onChange={this.handleChange}/>
-          {inputs}
-          <button
-            type="button"
-            onClick={this.handleNewPoint}
-            className="buttons"
-          >
-            +
-          </button>
+          
           <div className='recipe-form-line'>
             <label htmlFor='recipe-img-input'>Image Url</label>
             <input

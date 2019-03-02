@@ -54,15 +54,15 @@ class Home extends Component {
       
 
         <br /><br />
-       
+        <RecipeApp /> <br />
         <ScrollSquares/>
        
         <GetGifs/>
         
 
-        <RecipeApp />
+        
 
-        <br />
+       
         
 
      

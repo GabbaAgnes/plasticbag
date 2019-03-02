@@ -3,7 +3,7 @@
 
 *{
   text-align: center;
-  background: white; 
+  
 }
 
 
@@ -20,3 +20,70 @@ background-repeat: no-repeat;
    margin-top: 85%;
   
 }
+
+.colour-block {
+  background: rgb(96, 59, 59);
+  width:60%;
+  padding:7% 20% 10% 20%;
+  color:#fff;
+}
+.white-block {
+  background:#fff;
+  width:60%;
+  padding:7% 20% 10% 20%;
+  color:#369A7E;
+}
+
+p {
+  font-size:20px;
+  font-family:'Raleway', serif;
+}
+
+
+
+.scallop-down{
+  height:100px;
+  width:100%;
+  background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 40, from(white), color-stop(0.49, lightgray), color-stop(0.51, #fff), to(red));
+background-size: 49px 100%;
+border-radius: 0px 0px 50px 50px ;
+}
+
+
+
+.scallop-up{
+  height:100px;
+  width:100%;
+  background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, from(white), color-stop(0.49, lightgray), color-stop(0.51, #fff), to(red));
+background-size: 49px 100%;
+border-radius: 50px 50px 0px 0px;
+}
+
+
+.red{
+  background:rgb(169, 19, 19);
+  border-radius: 50px;
+
+  
+}
+
+.boldWords{
+  font-size:25px;
+  font-family: 'VT323', monospace;
+
+}
+
+/*background-image: linear-gradient(90deg, #b3274d 32.61%, #a88494 32.61%, #a88494 50%, #b3274d 50%, #b3274d 82.61%, #a88494 82.61%, #a88494 100%);
+  background-size: 46.00px 46.00px;
+  
+  
+  
+.line{
+  border-left: 6px solid green;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+*/

@@ -74,6 +74,7 @@ class RecipeApp extends Component {
     const {showForm} = this.state;
     return (
       <div className="App">
+        <RecipeList onDelete={this.onDelete} showcases={this.state.showcases} />
         <Navbar onNewShowcase={() => this.setState({showForm: true})} />
         { showForm ?
             <RecipeInput 
@@ -81,7 +82,9 @@ class RecipeApp extends Component {
               onClose={() => this.setState({showForm: false})}  
             /> :
             null }
-        <RecipeList onDelete={this.onDelete} showcases={this.state.showcases} />
+        
+
+       
       </div>
     );
   }

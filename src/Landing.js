@@ -25,7 +25,7 @@ class Landing extends Component {
 
     return (
       <div>
-      Click the dude to begin
+      <p className="boldWords">Click the dude to begin</p>
       <ShoppingCart />
       <section className="usethis" style={sectionStyle}>
 
@@ -35,24 +35,37 @@ class Landing extends Component {
 
         </div>
 
-        
+        <div className="scallop-up"></div>
+        <div className="colour-block">
+        <div className="line">
+        <p className="red">
         <Typist>
-          The way of the Essentialist means living<br /><br /><br />
+        <br />
+          The way of the Essentialist means living<br /><br />
           <Typist.Delay ms={500} />
-          by design, not by default. Instead of making <br /><br /><br />
-          choices reactively,the Essentialist deliberately<br /> <br /><br />
-          distinguishes the vital few from the trivial many.<br /><br /><br />
-          It is about making the wisest possible investment<br /><br /><br />
-          of your time and energy in order to operate at your<br /><br /><br />
-          highest point of contribution by doing only what is <br /><br /><br />
+          by design, not by default. Instead of making <br /><br />
+          choices reactively,the Essentialist deliberately<br /> <br />
+          distinguishes the vital few from the trivial many.<br /><br />
+          It is about making the wisest possible investment<br /><br />
+          of your time and energy in order to operate at your<br /><br />
+          highest point of contribution by doing only what is <br /><br />
           essential.
-       <br /><br />
+      
         </Typist>
+        
+        </p></div>
+        </div>
+        <div class="scallop-down"></div>
 
       
-        <br />
-        <Link to='/home' onClick={()=>{window.scrollTo(0,0)}}>home</Link>
+      <div>
+        <Link to='/home' onClick={()=>{window.scrollTo(0,0)}}>
+        
+               <img border="0" alt="landingImage" src="http://localhost:3000/images/hello.png" width="100" height="100"></img>
 
+            
+        </Link></div>
+       
 
 
 

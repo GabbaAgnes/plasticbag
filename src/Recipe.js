@@ -20,10 +20,7 @@ class Recipe extends Component {
 
 
         <div className="recipe-card-content">
-          <h4>Take these aways:</h4>
-          <ul>
-            {points}
-          </ul>
+          
           <h4>Check this out</h4>
           <p>{instructions}</p>
           </div>
@@ -40,4 +37,7 @@ class Recipe extends Component {
 }
 
 export default Recipe;
-//<button type="button" onClick={() => onDelete(_id)}>DELETE</button>
+/*<button type="button" onClick={() => onDelete(_id)}>DELETE</button><h4>Take these aways:</h4>
+          <ul>
+          {points}
+        </ul>*/

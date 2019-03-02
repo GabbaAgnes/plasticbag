@@ -11,8 +11,8 @@ class ScrollSquares extends Component {
     return (
       <div >
        <div className="horizontal-scroll-wrapper texts">
-          <div>item 1</div>
-          <div>item 2<CopyExample/></div>
+          <div></div>
+          <div><CopyExample/></div>
           <div><CopyExample/></div>
           <div>item 4</div>
           <div>item 5</div>

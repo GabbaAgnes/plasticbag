@@ -29,7 +29,7 @@ class CopyExample extends React.Component {
         <form className="surroundingForm" >
           <textarea
             ref={(textarea) => this.textArea = textarea}
-            value='Some text to copy'
+            value='Bacon ipsum dolor amet pork belly spare ribs ground round short ribs venison brisket jowl alcatra. Brisket jerky ribeye salami, pork loin turkey sirloin cupim frankfurter. Bresaola burgdoggen '
           />
         </form>
       </div>

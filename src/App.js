@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Home from './Home';
 import Landing from './Landing';
-import about from './about';
+
 import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
 import styled from 'styled-components';
 
@@ -20,8 +20,15 @@ class App extends Component {
 
 
             <ul className="slide">
-              <li><Link to='/'>landing</Link></li>
-              <li><Link to='/aboutthis'>ABOUT</Link></li>
+            
+
+              <Link to='/'>
+               <div>
+               <img border="0" alt="landingImage" src="http://localhost:3000/images/101.jpg" width="100" height="100"></img>
+
+               </div>
+              </Link>
+            
 
 
             </ul>
@@ -29,7 +36,7 @@ class App extends Component {
           <Switch>
             <Route exact path='/' component={Landing} />
             <Route path='/home' component={Home} />
-            <Route path='/aboutthis' component={about} />
+            
 
           </Switch>
         </div>
