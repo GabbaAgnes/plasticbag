@@ -77,7 +77,8 @@ class RecipeApp extends Component {
         <RecipeList onDelete={this.onDelete} showcases={this.state.showcases} />
         <Navbar onNewShowcase={() => this.setState({showForm: true})} />
         { showForm ?
-            <RecipeInput 
+            <RecipeInput
+              instructions={this.props.instructions} 
               onSave={this.handleSave}
               onClose={() => this.setState({showForm: false})}  
             /> :

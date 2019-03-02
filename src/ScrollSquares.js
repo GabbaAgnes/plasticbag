@@ -12,8 +12,8 @@ class ScrollSquares extends Component {
       <div >
        <div className="horizontal-scroll-wrapper texts">
           <div></div>
-          <div><CopyExample/></div>
-          <div><CopyExample/></div>
+          <div><CopyExample copyTextMethod={this.props.copyTextMethod} copy={"hell"}/></div>
+          <div><CopyExample copyTextMethod={this.props.copyTextMethod} copy={"hello"}/></div>
           <div>item 4</div>
           <div>item 5</div>
           <div>item 6</div>
@@ -33,7 +33,7 @@ class ScrollSquares extends Component {
           <div>item 1</div>
           <div>item 2</div>
           <div><img src="../images/1.png" alt="" title="Big Image"/>item 3</div>
-          <div>item 4</div>
+          <div></div>
           <div>item 5</div>
           <div>item 6</div>
           <div>item 7</div>

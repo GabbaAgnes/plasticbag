@@ -18,7 +18,7 @@ class CopyExample extends React.Component {
 
   render() {
     return (
-      <div>
+      <div onClick={()=>{this.props.copyTextMethod(this.props.copy)}}>
         {
          document.queryCommandSupported('copy') &&
           <div className="surroundingCopy">
@@ -29,7 +29,7 @@ class CopyExample extends React.Component {
         <form className="surroundingForm" >
           <textarea
             ref={(textarea) => this.textArea = textarea}
-            value='Bacon ipsum dolor amet pork belly spare ribs ground round short ribs venison brisket jowl alcatra. Brisket jerky ribeye salami, pork loin turkey sirloin cupim frankfurter. Bresaola burgdoggen '
+            value={this.props.copy}
           />
         </form>
       </div>

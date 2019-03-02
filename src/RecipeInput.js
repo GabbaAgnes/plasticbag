@@ -11,7 +11,7 @@ class RecipeInput extends Component {
     super(props);
     this.state = {
       
-      instructions: "",
+      instructions: props.instructions,
       points: [''],
       img: ''
     };
@@ -21,7 +21,11 @@ class RecipeInput extends Component {
     this.handleChangeIng = this.handleChangeIng.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
-  
+    
+    componentWillReceiveProps(newProps){
+      this.setState({instructions:newProps.instructions})
+    }
+
   handleChange(e) {
     this.setState({[e.target.name]: e.target.value});
   }

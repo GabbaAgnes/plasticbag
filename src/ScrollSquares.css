@@ -48,7 +48,7 @@
   margin-bottom: -450px;
   width:220px;
   max-height:700px;
-  background:red;
+  background-image: url("./images/try6.gif");
   overflow-y:auto;
   overflow-x:hidden;
   transform:rotate(-90deg) translateY(-80px);
@@ -130,7 +130,7 @@
 .horizontal-scroll-wrapper > div{
   display:block;
   padding:5px;
-  background:rgb(20, 175, 56);
+  background:black;
   transform:rotate(90deg);
   transform-origin: right top;
 }

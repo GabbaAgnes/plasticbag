@@ -42,7 +42,7 @@ class Landing extends Component {
         <Typist>
         <br />
           The way of the Essentialist means living<br /><br />
-          <Typist.Delay ms={500} />
+          <Typist.Delay ms={1000} />
           by design, not by default. Instead of making <br /><br />
           choices reactively,the Essentialist deliberately<br /> <br />
           distinguishes the vital few from the trivial many.<br /><br />

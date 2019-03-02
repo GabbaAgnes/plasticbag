@@ -14,12 +14,20 @@ class Home extends Component {
   state = {
     stateful: true,
     top: "100px",
-    disappear: false
+    disappear: false,
+    instructions:""
   }
+  
 
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll);
   }
+
+  copyTextMethod=(text)=>{
+    console.log(text)
+    this.setState({instructions:text})
+  }
+
   handleScroll = () => {
 
     this.setState({ top: window.scrollY + "px" })
@@ -54,8 +62,8 @@ class Home extends Component {
       
 
         <br /><br />
-        <RecipeApp /> <br />
-        <ScrollSquares/>
+        <RecipeApp instructions={this.state.instructions}/> <br />
+        <ScrollSquares copyTextMethod={this.copyTextMethod}/>
        
         <GetGifs/>
         
