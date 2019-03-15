@@ -22,16 +22,16 @@ class CopyExample extends React.Component {
         {
          document.queryCommandSupported('copy') &&
           <div className="surroundingCopy">
-            <button className="surroundingButton" onClick={this.copyToClipboard}>Copy</button> 
+           
             {this.state.copySuccess}
           </div>
         }
-        <form className="surroundingForm" >
+     
           <textarea
             ref={(textarea) => this.textArea = textarea}
             value={this.props.copy}
           />
-        </form>
+       
       </div>
     );
   }

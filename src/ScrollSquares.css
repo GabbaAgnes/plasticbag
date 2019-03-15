@@ -39,8 +39,8 @@
  
 }
 
-@media (min-width: 870px) and (max-width: 992px) {
-.horizontal-scroll-wrapper{
+@media (min-width: 870px) and (max-width: 1500px) {
+.horizontal-scroll-wrapper.texts{
   box-sizing:border-box;
   display:block;
   margin-left: -60px;
@@ -48,7 +48,8 @@
   margin-bottom: -450px;
   width:220px;
   max-height:700px;
-  background-image: url("./images/try6.gif");
+  background-image: url("./images/try7.gif");
+  background-size: contain;
   overflow-y:auto;
   overflow-x:hidden;
   transform:rotate(-90deg) translateY(-80px);
@@ -58,7 +59,7 @@
 
 
 @media (min-width: 700px) and (max-width: 870px) {
-  .horizontal-scroll-wrapper{
+  .horizontal-scroll-wrapper.texts{
     box-sizing:border-box;
     display:block;
     margin-left: -78px;
@@ -66,7 +67,8 @@
     margin-bottom: -400px;
     width:180px;
     max-height:620px;
-    background:red;
+    background-image: url("./images/try7.gif");
+  background-size: contain;
     overflow-y:auto;
     overflow-x:hidden;
     transform:rotate(-90deg) translateY(-80px);
@@ -75,7 +77,7 @@
   }
 
   @media (min-width: 600px) and (max-width: 700px) {
-    .horizontal-scroll-wrapper{
+    .horizontal-scroll-wrapper.texts{
     box-sizing:border-box;
     display:block;
     margin-left: -92px;
@@ -83,7 +85,8 @@
     margin-bottom: -350px;
     width:180px;
     max-height:550px;
-    background:red;
+    background-image: url("./images/try7.gif");
+  background-size: contain;
     overflow-y:auto;
     overflow-x:hidden;
     transform:rotate(-90deg) translateY(-80px);
@@ -92,7 +95,7 @@
   }
 
     @media (min-width: 500px) and (max-width: 600px) {
-      .horizontal-scroll-wrapper{
+      .horizontal-scroll-wrapper.texts{
         box-sizing:border-box;
         display:block;
         margin-left: -78px;
@@ -100,7 +103,8 @@
         margin-bottom: -250px;
         width:180px;
         max-height:450px;
-        background:red;
+        background-image: url("./images/try7.gif");
+  background-size: contain;
         overflow-y:auto;
         overflow-x:hidden;
         transform:rotate(-90deg) translateY(-80px);
@@ -109,7 +113,7 @@
       }
 
       @media (min-width: 20px) and (max-width: 500px) {
-        .horizontal-scroll-wrapper{
+        .horizontal-scroll-wrapper.texts{
           box-sizing:border-box;
           display:block;
           margin-left: -100px;
@@ -117,7 +121,8 @@
           margin-bottom: -110px;
           width:180px;
           max-height:310px;
-          background:red;
+          background-image: url("./images/try7.gif");
+  background-size: contain;
           overflow-y:auto;
           overflow-x:hidden;
           transform:rotate(-90deg) translateY(-80px);
@@ -125,6 +130,99 @@
         }
         }
 
+
+
+
+        @media (min-width: 870px) and (max-width: 1500px) {
+          .horizontal-scroll-wrapper.squares{
+            box-sizing:border-box;
+            display:block;
+            margin-left: -60px;
+            margin-right: 0;
+            margin-bottom: -450px;
+            width:220px;
+            max-height:700px;
+            background-image: url("./images/try6.gif");
+            overflow-y:auto;
+            overflow-x:hidden;
+            transform:rotate(-90deg) translateY(-80px);
+            transform-origin:right top;
+          }
+          }
+          
+          
+          @media (min-width: 700px) and (max-width: 870px) {
+            .horizontal-scroll-wrapper.squares{
+              box-sizing:border-box;
+              display:block;
+              margin-left: -78px;
+              margin-right: 0;
+              margin-bottom: -400px;
+              width:180px;
+              max-height:620px;
+              background:red;
+              overflow-y:auto;
+              overflow-x:hidden;
+              transform:rotate(-90deg) translateY(-80px);
+              transform-origin:right top;
+            }
+            }
+          
+            @media (min-width: 600px) and (max-width: 700px) {
+              .horizontal-scroll-wrapper.squares{
+              box-sizing:border-box;
+              display:block;
+              margin-left: -92px;
+              margin-right: 0;
+              margin-bottom: -350px;
+              width:180px;
+              max-height:550px;
+              background:red;
+              overflow-y:auto;
+              overflow-x:hidden;
+              transform:rotate(-90deg) translateY(-80px);
+              transform-origin:right top;
+            }
+            }
+          
+              @media (min-width: 500px) and (max-width: 600px) {
+                .horizontal-scroll-wrapper.squares{
+                  box-sizing:border-box;
+                  display:block;
+                  margin-left: -78px;
+                  margin-right: 0;
+                  margin-bottom: -250px;
+                  width:180px;
+                  max-height:450px;
+                  background:red;
+                  overflow-y:auto;
+                  overflow-x:hidden;
+                  transform:rotate(-90deg) translateY(-80px);
+                  transform-origin:right top;
+                }
+                }
+          
+                @media (min-width: 20px) and (max-width: 500px) {
+                  .horizontal-scroll-wrapper.squares{
+                    box-sizing:border-box;
+                    display:block;
+                    margin-left: -100px;
+                    margin-right: 0;
+                    margin-bottom: -110px;
+                    width:180px;
+                    max-height:310px;
+                    background:red;
+                    overflow-y:auto;
+                    overflow-x:hidden;
+                    transform:rotate(-90deg) translateY(-80px);
+                    transform-origin:right top;
+                  }
+                  }
+          
+          
+          
+          
+              
 
 
 .horizontal-scroll-wrapper > div{
@@ -165,16 +263,89 @@
  background-position: center; 
 }
 
+
+/*images inside src  */
+
+.squares div:nth-child(2){
+  background-image: url("./images/grace.png");
+
+}
+
+
 .squares div:nth-child(3){
   background-image: url("./images/1.png");
 
 }
 
 .squares div:nth-child(4){
-  background-image: url("https://media0.giphy.com/media/Cmr1OMJ2FN0B2/200w.gif");
+  background-image: url("./images/soon.png");
 
 }
 
+.squares div:nth-child(5){
+  background-image: url("./images/sunken.jpg");
+
+}
+
+.squares div:nth-child(6){
+  background-image: url("./images/endow.gif");
+
+}
+
+.squares div:nth-child(7){
+  background-image: url("./images/6ee.gif");
+
+}
+
+.squares div:nth-child(8){
+  background-image: url("./images/angel.jpg");
+
+}
+
+.squares div:nth-child(9){
+  background-image: url("./images/edit.png");
+
+}
+
+.squares div:nth-child(10){
+  background-image: url("./images/no.png");
+
+}
+
+.squares div:nth-child(11){
+  background-image: url("./images/try6.gif");
+
+}
+
+.squares div:nth-child(12){
+  background-image: url("./images/11.png");
+
+}
+
+.squares div:nth-child(13){
+  background-image: url("./images/ty4.gif");
+
+}
+
+/*.squares div:nth-child(14){
+  background-image: url("./images/");
+
+}
+
+.squares div:nth-child(15){
+  background-image: url("./images/");
+
+}
+
+.squares div:nth-child(16){
+  background-image: url("./images/");
+
+}
+
+.squares div:nth-child(17){
+  background-image: url("./images/");
+
+}*/
 
 
 .squares img{

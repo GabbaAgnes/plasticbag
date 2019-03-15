@@ -4,7 +4,6 @@ import './Recipe.css';
 
 class Recipe extends Component {
   static propTypes = {
-    points: PropTypes.arrayOf(PropTypes.string).isRequired,
     instructions: PropTypes.string.isRequired,
     img: PropTypes.string.isRequired,
     onDelete: PropTypes.func.isRequired
@@ -12,16 +11,15 @@ class Recipe extends Component {
 
   render() {
     const { img, instructions, _id, onDelete } = this.props;
-    const points = this.props.points.map((ing, index) => (
-      <li key={index}>{ing}</li>
-    ));
+    
     return (
-      <div className="recipe-card">
+      <div className="recipe-card" id="animated-shadow-quote">
+         
 
 
         <div className="recipe-card-content">
           
-          <h4>Check this out</h4>
+          <h4></h4>
           <p>{instructions}</p>
           </div>
 
@@ -30,6 +28,7 @@ class Recipe extends Component {
         <div className="recipe-card-img">
           <img src={img} />
         </div>
+       
 
       </div>
     );

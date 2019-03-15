@@ -1,18 +1,15 @@
 textarea{
-    background-color:rgb(20, 175, 56);
+    background-color:white;
 }
 
 .surroundingCopy{
 
-    background-color:rgb(20, 175, 56);
+    background-color:white;
 }
 
-.surroundingForm{
 
-    background-color:rgb(20, 175, 56);
-}
 
-.surroundingButton{
-    background-color:rgb(20, 175, 56);
-
+textarea{
+    width: 140px;
+    height: 135px;
 }

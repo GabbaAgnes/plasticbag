@@ -22,7 +22,7 @@ background-repeat: no-repeat;
 }
 
 .colour-block {
-  background: rgb(96, 59, 59);
+  background-image: linear-gradient(to bottom, #e3c1d5, #e5a4c1, #e885a5, #e76584, #e2415d);
   width:60%;
   padding:7% 20% 10% 20%;
   color:#fff;
@@ -57,7 +57,7 @@ border-radius: 50px 50px 0px 0px;
 
 
 .red{
-  background:rgb(169, 19, 19);
+  background-image: radial-gradient(circle, #e66584, #dd5b78, #d3516c, #ca4760, #c03d54);
   border-radius: 50px;
 
   
