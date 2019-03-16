@@ -13,7 +13,9 @@ class RecipeInput extends Component {
       
       instructions: props.instructions,
       points: [''],
-      img: ''
+      img: '',
+      abletoDelete:true
+
     };
     
     this.handleChange = this.handleChange.bind(this);
@@ -50,30 +52,16 @@ class RecipeInput extends Component {
      
       instructions: '',
       points: [''],
-      img: ''
+      img: '',
+      abletoDelete:true
+
     })
   }
   
   render() {
     const {title, instructions, img, points} = this.state;
     const {onClose} = this.props;
-    let inputs = points.map((ing, i) => (
-      <div
-        className="recipe-form-line"
-        key={`point-${i}`}
-      >
-        <label>{i+1}.
-          <input
-            type="text"
-            name={`point-${i}`}
-            value={ing}
-            size={45}
-            autoComplete="off"
-            placeholder=" point"
-            onChange={this.handleChangeIng} />
-        </label>
-      </div>
-    ));
+    
     
     return (
       <div className="recipe-form-container">
@@ -94,19 +82,21 @@ class RecipeInput extends Component {
             
           </label>
           <textarea
+            placeholder='Click on the text in the squares below to copy!'
             key='instructions'
             id='recipe-instructions-input'
             type='Instructions'
             name='instructions'
             rows='8'
-            cols='50'
+            cols='40'
             autoComplete='off'
             value={instructions}
             onChange={this.handleChange}/>
           
           <div className='recipe-form-line'>
-            <label htmlFor='recipe-img-input'>Image Url</label>
+            <label className="shake-slow shake-constant shake-constant--hover" htmlFor='recipe-img-input'>Paste An Image Url</label>
             <input
+              placeholder='Any img or gif address!'
               id='recipe-img-input'
               type='text'
               placeholder=''

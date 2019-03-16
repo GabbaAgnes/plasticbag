@@ -38,9 +38,8 @@ class RecipeApp extends Component {
     this.handleSave = this.handleSave.bind(this);
     this.onDelete = this.onDelete.bind(this);
   }
-
   componentDidMount(){
-     axios.get("http://localhost:8080/get").then(res=>{
+     axios.get("https://thinlyslicedplasticbag.herokuapp.com/get").then(res=>{
                 console.log(res)
         this.setState({showcases:res.data.allEntries})
      })
@@ -48,7 +47,7 @@ class RecipeApp extends Component {
   
   handleSave(recipe) {
     console.log(recipe)
-    axios.post("http://localhost:8080/add", {recipe}).then(res=>{
+    axios.post("https://thinlyslicedplasticbag.herokuapp.com/add", {recipe}).then(res=>{
       
     console.log(res)
     this.setState((prevState, props) => {
@@ -65,7 +64,7 @@ class RecipeApp extends Component {
   
   onDelete(_id) {
     console.log(_id)
-    axios.delete("http://localhost:8080/deleteCard",{data:{ "cardToDelete":_id}}).then(res=>{console.log(res)})
+    axios.delete("https://thinlyslicedplasticbag.herokuapp.com/deleteCard",{data:{ "cardToDelete":_id}}).then(res=>{console.log(res)})
     const showcases = this.state.showcases.filter(r => r._id !== _id);
     this.setState({showcases});
   }

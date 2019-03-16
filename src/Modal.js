@@ -8,7 +8,7 @@ class Modal extends Component {
     state = {
         
         title: "WELCOME AND LET'S GET IT",
-        description: "Inspirational knowledge from Greg Mckeown’s book 'Essentialism-The disciplined Pursuit of Less' combined with mostly surrealistist artwork",
+        description: "Inspirational knowledge from Greg Mckeown’s book 'Essentialism-The disciplined Pursuit of Less' combined with groovy artworks.",
        
     }
 

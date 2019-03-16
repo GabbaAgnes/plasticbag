@@ -10,8 +10,9 @@ class Recipe extends Component {
   }
 
   render() {
-    const { img, instructions, _id, onDelete } = this.props;
-    
+    console.log(this)
+    const { img, instructions, _id,onDelete,abletoDelete } = this.props;
+   console.log(abletoDelete)
     return (
       <div className="recipe-card" id="animated-shadow-quote">
          
@@ -28,7 +29,11 @@ class Recipe extends Component {
         <div className="recipe-card-img">
           <img src={img} />
         </div>
-       
+        {abletoDelete?
+        <button type="button" onClick={() => onDelete(_id)}>DELETE</button>:
+        ""
+      }
+        
 
       </div>
     );
@@ -36,7 +41,7 @@ class Recipe extends Component {
 }
 
 export default Recipe;
-/*<button type="button" onClick={() => onDelete(_id)}>DELETE</button><h4>Take these aways:</h4>
+/*<h4>Take these aways:</h4>
           <ul>
           {points}
         </ul>*/

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Home from './Home';
 import Landing from './Landing';
-
+import './App.css';
 import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
 import styled from 'styled-components';
 
@@ -21,14 +21,14 @@ class App extends Component {
 
             <ul className="slide">
             
-
+             <Content>
               <Link to='/'>
-               <div>
-               <img border="0" alt="landingImage" src="http://localhost:3000/images/101.jpg" width="100" height="100"></img>
-
-               </div>
-              </Link>
             
+               <img className="shake-slow shake-constant shake-constant--hover" border="0" alt="landingImage" src="./images/101.jpg" width="100" height="100"></img>
+
+              
+              </Link>
+              </Content>
 
 
             </ul>
@@ -47,6 +47,11 @@ class App extends Component {
   }
 }
 
+
+
+const Content = styled.div`
+   
+`;
 
 export default App;
 // <li><Link to='/home'>home</Link></li>

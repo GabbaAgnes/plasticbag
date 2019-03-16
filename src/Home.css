@@ -7,7 +7,7 @@
 @media (min-width: 870px) and (max-width: 1500px) {
   .homewrapper{
     padding: 2em;
-    border: 2px solid palevioletred;
+    border: 2px solid red;
     
     background-image: url("./images/try5.gif");
 
@@ -20,8 +20,7 @@
     .homewrapper{
       padding: 1em;
       border: 2px solid palevioletred;
-      background-image: url("https://media.giphy.com/media/3oEjI7jnahus17FMhq/giphy.gif");
-    }
+      background-image: url("./images/try5.gif");    }
     
     }
 
@@ -30,24 +29,27 @@
       .homewrapper{
         padding: 0.5em;
         border: 2px solid palevioletred;
-        background-image: url("https://media.giphy.com/media/3oEjI7jnahus17FMhq/giphy.gif");
-      }
+        background-image: url("./images/try5.gif");      }
     }
   
       @media (min-width: 500px) and (max-width: 600px) {
         .homewrapper{
           padding: 0.25em;
           border: 2px solid palevioletred;
-          background-image: url("https://media.giphy.com/media/3oEjI7jnahus17FMhq/giphy.gif");
-        }
+          background-image: url("./images/try5.gif");        }
         }
   
         @media (min-width: 320px) and (max-width: 500px) {
           .homewrapper{
             padding: 0em;
             border: 0px solid palevioletred;
-            background-image: url("https://media.giphy.com/media/3oEjI7jnahus17FMhq/giphy.gif");
-          }
+            background-image: url("./images/try5.gif");          }
           }
   
-  
+      
+      
+      
+          .explainShowcase{
+            font-family: 'VT323', monospace;
+            color: red;
+          }

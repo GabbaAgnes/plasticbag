@@ -25,7 +25,7 @@ class Landing extends Component {
 
     return (
       <div>
-      <p className="boldWords">Click the dude to begin</p>
+      <p id="boldWords" className="shake-little shake-constant shake-constant--hover">Click the dude to begin</p>
       <ShoppingCart />
       <section className="usethis" style={sectionStyle}>
 
@@ -42,7 +42,7 @@ class Landing extends Component {
         <Typist>
         <br />
           The way of the Essentialist means living<br /><br />
-          <Typist.Delay ms={1000} />
+          <Typist.Delay ms={5000} />
           by design, not by default. Instead of making <br /><br />
           choices reactively,the Essentialist deliberately<br /> <br />
           distinguishes the vital few from the trivial many.<br /><br />
@@ -59,10 +59,10 @@ class Landing extends Component {
 
       
       <div>
+        <h4>Enter Main Page</h4>
         <Link to='/home' onClick={()=>{window.scrollTo(0,0)}}>
         
-               <img border="0" alt="landingImage" src="http://localhost:3000/images/hello.png" width="100" height="100"></img>
-
+               <img className="shake-slow shake-constant shake-constant--hover" border="0" alt="landingImage" src="./images/hello.png" width="100" height="100"></img>
             
         </Link></div>
        

@@ -62,9 +62,10 @@ class Home extends Component {
       
 
         <br /><br />
+        <h1 className="explainShowcase">Take a deep breath and check out below showcases with chucks of knowledge from the book.</h1>
         <RecipeApp instructions={this.state.instructions}/> <br />
         <ScrollSquares copyTextMethod={this.copyTextMethod}/>
-       
+        <h2 className="explainShowcase">If you're not feeling the images above, search for a gif below.</h2>
         <GetGifs/>
         
 
