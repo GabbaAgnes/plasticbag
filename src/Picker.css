@@ -73,8 +73,7 @@
   } */
 
 
-
-@media (min-width: 799px) and (max-width: 1500px) {
+  @media (min-width: 1100px) and (max-width: 1500px) {
 
 
  
@@ -85,7 +84,35 @@
         border: 1px solid #f1f1f1;
         border-radius: 4px;
         background: white;
-        width: 100%;
+        width: 95%;
+        clear:both;
+        height: 350px;
+        z-index: 100;
+    }
+
+    .giphyColumn{
+        box-sizing: border-box;
+        
+        flex: 25%;
+        max-width: 100%;
+        padding: 0 25px;
+        cursor: pointer;
+    }
+ 
+  }
+
+@media (min-width: 799px) and (max-width: 1100px) {
+
+
+ 
+    #giphyPickerWrapper{
+        box-sizing: border-box;
+        position: relative;
+        padding: 10px;
+        border: 1px solid #f1f1f1;
+        border-radius: 4px;
+        background: white;
+        width: 90%;
         clear:both;
         height: 350px;
         z-index: 100;
@@ -196,7 +223,7 @@
     #giphyPickerWrapper{
         box-sizing: border-box;
         position: relative;
-        padding: 10px;
+        padding: 10px 30px 10px 30px;
         border: 1px solid #f1f1f1;
         border-radius: 4px;
         background: white;

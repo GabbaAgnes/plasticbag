@@ -39,15 +39,15 @@
  
 }
 
-@media (min-width: 870px) and (max-width: 1500px) {
+@media (min-width: 1300px) and (max-width: 1500px) {
 .horizontal-scroll-wrapper.texts{
   box-sizing:border-box;
   display:block;
   margin-left: -60px;
   margin-right: 0;
-  margin-bottom: -450px;
+  margin-bottom: -690px;
   width:220px;
-  max-height:700px;
+  max-height:1000px;
   background-image: url("./images/try7.gif");
   background-size: contain;
   overflow-y:auto;
@@ -56,6 +56,42 @@
   transform-origin:right top;
 }
 }
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+  .horizontal-scroll-wrapper.texts{
+    box-sizing:border-box;
+    display:block;
+    margin-left: -60px;
+    margin-right: 0;
+    margin-bottom: -600px;
+    width:220px;
+    max-height:850px;
+    background-image: url("./images/try7.gif");
+    background-size: contain;
+    overflow-y:auto;
+    overflow-x:hidden;
+    transform:rotate(-90deg) translateY(-80px);
+    transform-origin:right top;
+  }
+  }
+
+@media (min-width: 870px) and (max-width: 1000px) {
+  .horizontal-scroll-wrapper.texts{
+    box-sizing:border-box;
+    display:block;
+    margin-left: -60px;
+    margin-right: 0;
+    margin-bottom: -550px;
+    width:220px;
+    max-height:800px;
+    background-image: url("./images/try7.gif");
+    background-size: contain;
+    overflow-y:auto;
+    overflow-x:hidden;
+    transform:rotate(-90deg) translateY(-80px);
+    transform-origin:right top;
+  }
+  }
 
 
 @media (min-width: 700px) and (max-width: 870px) {
@@ -135,15 +171,51 @@
 
         /*images*/
 
-        @media (min-width: 870px) and (max-width: 1500px) {
+        @media (min-width: 1300px) and (max-width: 1500px) {
           .horizontal-scroll-wrapper.squares{
             box-sizing:border-box;
             display:block;
             margin-left: -60px;
             margin-right: 0;
-            margin-bottom: -450px;
+            margin-bottom: -730px;
             width:220px;
-            max-height:700px;
+            max-height:1000px;
+            background-image: url("https://media.giphy.com/media/3oKIPc9VZj4ylzjcys/giphy.gif");
+            background-size: cover;
+            overflow-y:auto;
+            overflow-x:hidden;
+            transform:rotate(-90deg) translateY(-80px);
+            transform-origin:right top;
+          }
+          }
+
+          @media (min-width: 1000px) and (max-width: 1300px) {
+            .horizontal-scroll-wrapper.squares{
+              box-sizing:border-box;
+              display:block;
+              margin-left: -60px;
+              margin-right: 0;
+              margin-bottom: -600px;
+              width:220px;
+              max-height:850px;
+              background-image: url("https://media.giphy.com/media/3oKIPc9VZj4ylzjcys/giphy.gif");
+              background-size: cover;
+              overflow-y:auto;
+              overflow-x:hidden;
+              transform:rotate(-90deg) translateY(-80px);
+              transform-origin:right top;
+            }
+            }
+
+        @media (min-width: 870px) and (max-width: 1000px) {
+          .horizontal-scroll-wrapper.squares{
+            box-sizing:border-box;
+            display:block;
+            margin-left: -60px;
+            margin-right: 0;
+            margin-bottom: -550px;
+            width:220px;
+            max-height:800px;
             background-image: url("https://media.giphy.com/media/3oKIPc9VZj4ylzjcys/giphy.gif");
             background-size: cover;
             overflow-y:auto;
