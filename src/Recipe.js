@@ -12,7 +12,7 @@ class Recipe extends Component {
   render() {
     console.log(this)
     const { img, instructions, _id,onDelete,abletoDelete } = this.props;
-   console.log(abletoDelete)
+   console.log(abletoDelete )
     return (
       <div className="recipe-card" id="animated-shadow-quote">
          
