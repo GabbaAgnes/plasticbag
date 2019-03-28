@@ -2,9 +2,7 @@
 
 
 
-
-
-@media (min-width: 870px) and (max-width: 1500px) {
+@media (min-width: 870px) and (max-width: 1800px) {
   .homewrapper{
     padding: 2em;
     border: 2px solid red;
@@ -52,4 +50,7 @@
           .explainShowcase{
             font-family: 'VT323', monospace;
             color: red;
+            background-color:beige; 
+            display: inline-block;
+            width: 70vw;
           }

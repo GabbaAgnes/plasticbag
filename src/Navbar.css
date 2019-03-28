@@ -1,11 +1,19 @@
 #clickAdd{
     color :red;
     font-family: 'Margarine', cursive;
+    background-color: beige;
+    display: inline-block;
+    width:70vw;
+    font-size: 22px;
 }
 
 #explainAdding{
     color :red;
     font-family: 'Margarine', cursive;
+    font-size: 26px;
+    background-color: beige;
+    display: inline-block;
+    width:70vw;
 
 
 }

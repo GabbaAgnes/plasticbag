@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
 import './Home.css';
 import RecipeApp from './RecipeApp';
-
 import CopyExample from './CopyText';
 import ScrollSquares from './ScrollSquares';
 import GetGifs from './GetGifs';
@@ -47,6 +46,8 @@ class Home extends Component {
   render() {
 
     return (
+      
+
       <div className="homewrapper">
 
 
@@ -62,13 +63,22 @@ class Home extends Component {
       
 
         <br /><br />
-        <h1 className="explainShowcase">Take a deep breath and check out below showcases with chucks of knowledge from the book.</h1>
-        <RecipeApp instructions={this.state.instructions}/> <br />
-        <ScrollSquares copyTextMethod={this.copyTextMethod}/>
-        <h2 className="explainShowcase">If you're not feeling the images above, search for a gif below.</h2>
-        <GetGifs/>
-        
 
+        <h1 className="explainShowcase">
+        Below paragraghs are taken from the book in no particular order; reading through these messages has been a wonderful experience, I start to rethink those actions in my life that 
+        I can improve upon as well as information that should be addressed.
+        <div>------------------------------------------------</div>
+        Each paragragh is one of the parent of the final hatched display, assign anyone by clicking on it--the highlighted
+        edge indicates those words are inserted(copied) in the egg.  
+        </h1>
+        
+        <ScrollSquares copyTextMethod={this.copyTextMethod}/>
+        <h2 className="explainShowcase">Or find a GIF of your choice
+        -- Please ponder your choice, making a perfect match requires the visual representation to reflect the meaning of the messages. </h2>
+        
+        <GetGifs/>
+        <RecipeApp instructions={this.state.instructions}/> <br />
+        
         
 
        
@@ -78,6 +88,7 @@ class Home extends Component {
 
       </div>
       
+
 
     )
   }

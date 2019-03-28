@@ -8,11 +8,18 @@
 
 
 
-.squareText{
+#squareText{
     background-image: url("https://media.giphy.com/media/TxVVB6PfWMjE4/giphy.gif");
     width: 140px;
     height: 135px;
     color: whitesmoke;
     font-family: 'Margarine', cursive;
+    transition: all .2s ease-in;
+}
 
+
+#squareText:hover{
+
+  transform: scale(1.8);
+  z-index: 100;
 }

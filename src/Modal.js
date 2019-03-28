@@ -7,7 +7,7 @@ import './Modal.css';
 class Modal extends Component {
     state = {
         
-        title: "WELCOME AND LET'S GET IT",
+        title: "A WEBSITE DEDICATED TO THOSE WHO HAS NOT READ THE BOOK",
         description: "Inspirational knowledge from Greg Mckeown’s book 'Essentialism-The disciplined Pursuit of Less' combined with groovy artworks.",
        
     }

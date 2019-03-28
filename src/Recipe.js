@@ -30,7 +30,7 @@ class Recipe extends Component {
           <img src={img} />
         </div>
         {abletoDelete?
-        <button type="button" onClick={() => onDelete(_id)}>DELETE</button>:
+        <button type="button" onClick={() => onDelete(_id)}>TERMINATE</button>:
         ""
       }
         
@@ -41,7 +41,3 @@ class Recipe extends Component {
 }
 
 export default Recipe;
-/*<h4>Take these aways:</h4>
-          <ul>
-          {points}
-        </ul>*/

@@ -1,83 +1,10 @@
 
-/* Extra small devices (phones, 600px and down) 
-@media only screen and (max-width: 500px) {
-  .example {background: red;}
-}
-
-
-/* Medium devices (landscape tablets, 768px and up) 
-@media only screen and (min-width: 768px) {
-  .example {background: blue;}
-} 
-
-
-/* Large devices (laptops/desktops, 992px and up) 
-@media only screen and (min-width: 992px) {
-  .example {background: orange;}
-} 
-*/
-
-
-
-/*
-
-@media only screen and (max-width: 400px) {
-    #giphyPickerWrapper{
-     box-sizing: border-box;
-     position: relative;
-     padding: 10px;
-     border: 1px solid #f1f1f1;
-     border-radius: 4px;
-     background: white;
-     width: 25%;
-     
-     clear:both;
-     height: 505px;
-     z-index: 100;
-
-     }
-
-     .giphyColumn{
-        box-sizing: border-box;
-       
-        flex: 100%;
-        max-width: 100%;
-        padding: 0 4px;
-        cursor: pointer;
-    }
-   }
-
-
-   @media (min-width:400px) and (max-width: 768px) {
-    #giphyPickerWrapper{
-        box-sizing: border-box;
-        position: relative;
-        padding: 10px;
-        border: 1px solid #f1f1f1;
-        border-radius: 4px;
-        background: white;
-        width: 50%;
-        
-        clear:both;
-        height: 505px;
-        z-index: 100;
-    }
-    .giphyColumn{
-        box-sizing: border-box;
-       
-        flex: 50%;
-        max-width: 100%;
-        padding: 0 4px;
-        cursor: pointer;
-    }
-  } */
-
-
-  @media (min-width: 1100px) and (max-width: 1500px) {
+  @media (min-width: 1500px) and (max-width: 2000px) {
 
 
  
     #giphyPickerWrapper{
+      display: flex;
         box-sizing: border-box;
         position: relative;
         padding: 10px;
@@ -86,7 +13,36 @@
         background: white;
         width: 95%;
         clear:both;
-        height: 350px;
+        height: 250px;
+        z-index: 100;
+    }
+
+    .giphyColumn{
+        box-sizing: border-box;
+        
+        flex: 25%;
+        max-width: 100%;
+        padding: 0 35px;
+        cursor: pointer;
+    }
+ 
+  }
+
+  @media (min-width: 1100px) and (max-width: 1500px) {
+
+
+ 
+    #giphyPickerWrapper{
+      display: flex;
+        box-sizing: border-box;
+        position: relative;
+        padding: 10px;
+        border: 1px solid #f1f1f1;
+        border-radius: 4px;
+        background: white;
+        width: 95%;
+        clear:both;
+        height: 250px;
         z-index: 100;
     }
 
@@ -106,6 +62,7 @@
 
  
     #giphyPickerWrapper{
+      display: flex;
         box-sizing: border-box;
         position: relative;
         padding: 10px;
@@ -114,7 +71,7 @@
         background: white;
         width: 90%;
         clear:both;
-        height: 350px;
+        height: 250px;
         z-index: 100;
     }
 
@@ -135,6 +92,7 @@
 
  
     #giphyPickerWrapper{
+      display: flex;
         box-sizing: border-box;
         position: relative;
         padding: 10px;
@@ -143,7 +101,7 @@
         background: white;
         width: 100%;
         clear:both;
-        height: 350px;
+        height: 250px;
         z-index: 100;
     }
 
@@ -165,6 +123,7 @@
 
  
     #giphyPickerWrapper{
+      display: flex;
         box-sizing: border-box;
         position: relative;
         padding: 10px;
@@ -173,7 +132,7 @@
         background: white;
         width: 100%;
         clear:both;
-        height: 350px;
+        height: 250px;
         z-index: 100;
     }
 
@@ -193,6 +152,7 @@
 
  
     #giphyPickerWrapper{
+      display: flex;
         box-sizing: border-box;
         position: relative;
         padding: 10px;
@@ -201,7 +161,7 @@
         background: white;
         width: 100%;
         clear:both;
-        height: 350px;
+        height: 250px;
         z-index: 100;
     }
 
@@ -229,7 +189,7 @@
         background: white;
         width: 100%;
         clear:both;
-        height: 350px;
+        height: 250px;
         z-index: 100;
     }
 

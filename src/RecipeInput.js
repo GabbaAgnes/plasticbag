@@ -12,15 +12,12 @@ class RecipeInput extends Component {
     this.state = {
       
       instructions: props.instructions,
-      points: [''],
       img: '',
       abletoDelete:true
 
     };
     
     this.handleChange = this.handleChange.bind(this);
-    this.handleNewPoint = this.handleNewPoint.bind(this);
-    this.handleChangeIng = this.handleChangeIng.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
     
@@ -32,18 +29,8 @@ class RecipeInput extends Component {
     this.setState({[e.target.name]: e.target.value});
   }
   
-  handleNewPoint(e) {
-    const {points} = this.state;
-    this.setState({points: [...points, '']});
-  }
   
-  handleChangeIng(e) {
-    const index = Number(e.target.name.split('-')[1]);
-    const points = this.state.points.map((ing, i) => (
-      i === index ? e.target.value : ing
-    ));
-    this.setState({points});
-  }
+
   
   handleSubmit(e) {
     e.preventDefault();
@@ -51,7 +38,7 @@ class RecipeInput extends Component {
     this.setState({
      
       instructions: '',
-      points: [''],
+      
       img: '',
       abletoDelete:true
 
@@ -59,7 +46,7 @@ class RecipeInput extends Component {
   }
   
   render() {
-    const {title, instructions, img, points} = this.state;
+    const {title, instructions, img} = this.state;
     const {onClose} = this.props;
     
     
@@ -74,15 +61,11 @@ class RecipeInput extends Component {
             X
           </button>
           
-          <label
-            htmlFor='recipe-instructions-input'
-            style={{marginTop: '5px'}}
-          >
-            
-            
-          </label>
+          
+         
           <textarea
-            placeholder='Click on the text in the squares below to copy!'
+             className="copiedInput"
+            placeholder='If you are seeing this, you haven not grabbed parent one yet!'
             key='instructions'
             id='recipe-instructions-input'
             type='Instructions'
@@ -94,9 +77,9 @@ class RecipeInput extends Component {
             onChange={this.handleChange}/>
           
           <div className='recipe-form-line'>
-            <label className="shake-slow shake-constant shake-constant--hover" htmlFor='recipe-img-input'>Paste An Image Url</label>
+            <label id="pasteUrl" className="shake-slow shake-constant shake-constant--hover" htmlFor='recipe-img-input'>Paste Img/Gif Url</label>
             <input
-              placeholder='Any img or gif address!'
+              className="copiedInput"
               id='recipe-img-input'
               type='text'
               placeholder=''
@@ -108,10 +91,10 @@ class RecipeInput extends Component {
           </div>
           <button
             type="submit"
-            className="buttons"
+            className="btn btn--wut is-active"
             style={{alignSelf: 'flex-end', marginRight: 0}}
           >
-            SAVE
+            HATCH
           </button>
         </form>
       </div>
@@ -121,4 +104,3 @@ class RecipeInput extends Component {
 
 export default RecipeInput;
 
-//recipes is replaces by showcases

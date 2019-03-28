@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './Landing.css';
 import ShoppingCart from './ShoppingCart'
 import Background from './images/photo2.jpg'
-import Typist from 'react-typist'
 
 import Home from './Home'
 import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
@@ -25,7 +24,7 @@ class Landing extends Component {
 
     return (
       <div>
-      <p id="boldWords" className="shake-little shake-constant shake-constant--hover">Click the dude to begin</p>
+      <p id="boldWords" className="shake-little shake-constant shake-constant--hover">Click the dude below to begin</p>
       <ShoppingCart />
       <section className="usethis" style={sectionStyle}>
 
@@ -39,10 +38,9 @@ class Landing extends Component {
         <div className="colour-block">
         <div className="line">
         <p className="red">
-        <Typist>
+        
         <br />
           The way of the Essentialist means living<br /><br />
-          <Typist.Delay ms={5000} />
           by design, not by default. Instead of making <br /><br />
           choices reactively,the Essentialist deliberately<br /> <br />
           distinguishes the vital few from the trivial many.<br /><br />
@@ -51,7 +49,7 @@ class Landing extends Component {
           highest point of contribution by doing only what is <br /><br />
           essential.
       
-        </Typist>
+        
         
         </p></div>
         </div>
@@ -59,7 +57,7 @@ class Landing extends Component {
 
       
       <div>
-        <h4>Enter Main Page</h4>
+        <h2>Below creature will take you home</h2>
         <Link to='/home' onClick={()=>{window.scrollTo(0,0)}}>
         
                <img className="shake-slow shake-constant shake-constant--hover" border="0" alt="landingImage" src="./images/hello.png" width="100" height="100"></img>
@@ -83,4 +81,8 @@ export default Landing;
 
 /*<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />*/
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+          <Typist.Delay ms={5000} />
+*/

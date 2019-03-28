@@ -15,9 +15,9 @@ class Navbar extends Component {
     return (
       <header>
         <br/>
-        <h2 id="explainAdding" className="shake-little shake-constant shake-constant--hover">In case you would like to enrich the content of this page.</h2>
+        <h2 id="explainAdding" className="shake-little shake-constant shake-constant--hover">TIME FOR HATCHING</h2>
         <nav className="shake-slow shake-constant shake-constant--hover">
-       <a id="clickAdd" onClick={this.props.onNewShowcase}>Click to Add A New Showcase to The collection Above</a>
+       <a id="clickAdd" onClick={this.props.onNewShowcase}>Click to COMBINE both parents</a>
           
         </nav>
       </header>

@@ -18,7 +18,7 @@
 
 
 
-
+ 
 
 
 /*square scrolls*/
@@ -39,15 +39,17 @@
  
 }
 
-@media (min-width: 1300px) and (max-width: 1500px) {
+
+
+@media (min-width: 1300px) and (max-width: 2200px) {
 .horizontal-scroll-wrapper.texts{
   box-sizing:border-box;
   display:block;
-  margin-left: -60px;
+  margin-left: -90px;
   margin-right: 0;
-  margin-bottom: -690px;
+  margin-bottom: -65vw;
   width:220px;
-  max-height:1000px;
+  max-height:85vw;
   background-image: url("./images/try7.gif");
   background-size: contain;
   overflow-y:auto;
@@ -61,11 +63,11 @@
   .horizontal-scroll-wrapper.texts{
     box-sizing:border-box;
     display:block;
-    margin-left: -60px;
+    margin-left: -110px;
     margin-right: 0;
-    margin-bottom: -600px;
+    margin-bottom: -60vw;
     width:220px;
-    max-height:850px;
+    max-height:85vw;
     background-image: url("./images/try7.gif");
     background-size: contain;
     overflow-y:auto;
@@ -79,11 +81,11 @@
   .horizontal-scroll-wrapper.texts{
     box-sizing:border-box;
     display:block;
-    margin-left: -60px;
+    margin-left: -80px;
     margin-right: 0;
-    margin-bottom: -550px;
+    margin-bottom: -55vw;
     width:220px;
-    max-height:800px;
+    max-height:85vw;
     background-image: url("./images/try7.gif");
     background-size: contain;
     overflow-y:auto;
@@ -98,11 +100,11 @@
   .horizontal-scroll-wrapper.texts{
     box-sizing:border-box;
     display:block;
-    margin-left: -78px;
+    margin-left: -65px;
     margin-right: 0;
-    margin-bottom: -400px;
-    width:180px;
-    max-height:620px;
+    margin-bottom: -55vw;
+    width:220px;
+    max-height:85vw;
     background-image: url("./images/try7.gif");
   background-size: contain;
     overflow-y:auto;
@@ -116,11 +118,11 @@
     .horizontal-scroll-wrapper.texts{
     box-sizing:border-box;
     display:block;
-    margin-left: -92px;
+    margin-left: -120px;
     margin-right: 0;
-    margin-bottom: -350px;
-    width:180px;
-    max-height:550px;
+    margin-bottom: -240px;
+    width:220px;
+    max-height:85vw;
     background-image: url("./images/try7.gif");
   background-size: contain;
     overflow-y:auto;
@@ -134,11 +136,11 @@
       .horizontal-scroll-wrapper.texts{
         box-sizing:border-box;
         display:block;
-        margin-left: -78px;
+        margin-left: -120px;
         margin-right: 0;
-        margin-bottom: -250px;
-        width:180px;
-        max-height:450px;
+        margin-bottom: -200px;
+        width:220px;
+        max-height:85vw;
         background-image: url("./images/try7.gif");
   background-size: contain;
         overflow-y:auto;
@@ -152,11 +154,11 @@
         .horizontal-scroll-wrapper.texts{
           box-sizing:border-box;
           display:block;
-          margin-left: -100px;
+          margin-left: -130px;
           margin-right: 0;
-          margin-bottom: -110px;
-          width:180px;
-          max-height:310px;
+          margin-bottom: -5vw;
+          width:220px;
+          max-height:90vw;
           background-image: url("./images/try7.gif");
   background-size: contain;
           overflow-y:auto;
@@ -171,15 +173,15 @@
 
         /*images*/
 
-        @media (min-width: 1300px) and (max-width: 1500px) {
+        @media (min-width: 1300px) and (max-width: 2200px) {
           .horizontal-scroll-wrapper.squares{
             box-sizing:border-box;
             display:block;
-            margin-left: -60px;
+            margin-left: -90px;
             margin-right: 0;
-            margin-bottom: -730px;
+            margin-bottom: -65vw;
             width:220px;
-            max-height:1000px;
+            max-height:85vw;
             background-image: url("https://media.giphy.com/media/3oKIPc9VZj4ylzjcys/giphy.gif");
             background-size: cover;
             overflow-y:auto;
@@ -193,11 +195,11 @@
             .horizontal-scroll-wrapper.squares{
               box-sizing:border-box;
               display:block;
-              margin-left: -60px;
+              margin-left: -110px;
               margin-right: 0;
-              margin-bottom: -600px;
+              margin-bottom: -60vw;
               width:220px;
-              max-height:850px;
+              max-height:85vw;
               background-image: url("https://media.giphy.com/media/3oKIPc9VZj4ylzjcys/giphy.gif");
               background-size: cover;
               overflow-y:auto;
@@ -211,11 +213,11 @@
           .horizontal-scroll-wrapper.squares{
             box-sizing:border-box;
             display:block;
-            margin-left: -60px;
+            margin-left: -80px;
             margin-right: 0;
-            margin-bottom: -550px;
+            margin-bottom: -55vw;
             width:220px;
-            max-height:800px;
+            max-height:85vw;
             background-image: url("https://media.giphy.com/media/3oKIPc9VZj4ylzjcys/giphy.gif");
             background-size: cover;
             overflow-y:auto;
@@ -230,11 +232,11 @@
             .horizontal-scroll-wrapper.squares{
               box-sizing:border-box;
               display:block;
-              margin-left: -78px;
+              margin-left: -65px;
               margin-right: 0;
-              margin-bottom: -400px;
+              margin-bottom: -55vw;
               width:180px;
-              max-height:620px;
+              max-height:85vw;
               background-image: url("https://media.giphy.com/media/3oKIPc9VZj4ylzjcys/giphy.gif");
             background-size: cover;
               overflow-y:auto;
@@ -248,11 +250,11 @@
               .horizontal-scroll-wrapper.squares{
               box-sizing:border-box;
               display:block;
-              margin-left: -92px;
+              margin-left: -60px;
               margin-right: 0;
-              margin-bottom: -350px;
+              margin-bottom: -55vw;
               width:180px;
-              max-height:550px;
+              max-height:85vw;
               background-image: url("https://media.giphy.com/media/3oKIPc9VZj4ylzjcys/giphy.gif");
             background-size: cover;
               overflow-y:auto;
@@ -266,11 +268,11 @@
                 .horizontal-scroll-wrapper.squares{
                   box-sizing:border-box;
                   display:block;
-                  margin-left: -78px;
+                  margin-left: -60px;
                   margin-right: 0;
-                  margin-bottom: -250px;
+                  margin-bottom: -35vw;
                   width:180px;
-                  max-height:450px;
+                  max-height:85vw;
                   background-image: url("https://media.giphy.com/media/3oKIPc9VZj4ylzjcys/giphy.gif");
             background-size: cover;
                   overflow-y:auto;
@@ -284,11 +286,11 @@
                   .horizontal-scroll-wrapper.squares{
                     box-sizing:border-box;
                     display:block;
-                    margin-left: -100px;
+                    margin-left: -90px;
                     margin-right: 0;
-                    margin-bottom: -110px;
+                    margin-bottom: -15vw;
                     width:180px;
-                    max-height:310px;
+                    max-height:90vw;
                     background-image: url("https://media.giphy.com/media/3oKIPc9VZj4ylzjcys/giphy.gif");
             background-size: cover;
                     overflow-y:auto;
@@ -313,7 +315,7 @@
 }
 
 .squares{
-  padding:10px 0 0 0;
+  padding:30px 0 0 0;
 
 }
 
@@ -326,11 +328,14 @@
    box-sizing:border-box;
   width:160px;
   height:160px;
-  margin:10px;
+  margin:40px;
+  margin-left:5px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center; 
-}
+  }
+
+
 
 .squares > div{
   box-sizing:border-box;
@@ -343,7 +348,17 @@
 }
 
 
+
+
+
 /*images inside src  */
+
+.squares div:nth-child(1){
+  background-image: url("./images/train.png");
+  width: 300px;
+  height:300px;
+
+}
 
 .squares div:nth-child(2){
   background-image: url("./images/grace.png");
@@ -451,8 +466,67 @@
 
 }
 
+.squares div:nth-child(23){
+  background-image: url("./images/sleep.png");
+
+}
+
+.squares div:nth-child(24){
+  background-image: url("./images/reborn.png");
+
+}
+
+.squares div:nth-child(25){
+  background-image: url("./images/pause.jpg");
+
+}
+
+.squares div:nth-child(26){
+  background-image: url("./images/whatif1.gif");
+
+}
+
+.squares div:nth-child(27){
+  background-image: url("./images/focus.gif");
+
+}
+
+.squares div:nth-child(28){
+  background-image: url("./images/read.jpg");
+
+}
+
+.squares div:nth-child(29){
+  background-image: url("./images/play.jpg");
+
+}
+
+.squares div:nth-child(30){
+  background-image: url("./images/tradeoff1.jpg");
+
+}
+
+.squares div:nth-child(31){
+  background-image: url("./images/stretched.gif");
+
+}
+
+.squares div:nth-child(32){
+  background-image: url("https://i-h1.pinimg.com/564x/12/3c/89/123c899c49333b96f0b052d3a82ee8b6.jpg");
+
+}
+
+
 .squares img{
     opacity: 0;
 }
 
 
+#explainPicGif{
+  font-family: 'VT323', monospace;
+  color: red;
+  background-color:beige; 
+  width:70vw;
+  display: inline-block;
+  font-size: 25px;
+}

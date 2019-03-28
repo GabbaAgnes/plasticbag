@@ -70,7 +70,7 @@ export default class Picker extends Component {
 	static get defaultProps() {
 		return {
 			apiKey: 'IFi4RzT7NxvWjFC845z185zLEwjfObX5',
-			placeholder: 'If you want to use Gifs...',
+			placeholder: 'Search Gifs...',
 			imagePlaceholderColor: '#E3E3E3',
 			loader: <p>Loading...</p>
 		}
