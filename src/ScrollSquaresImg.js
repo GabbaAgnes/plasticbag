@@ -19,7 +19,7 @@ class ScrollSquaresImg extends Component {
 <div id="explainPicGif">
 Now its's time for the other parent, they have arrived by the train. 
 <br/>
-Copy the image address of your chosen one.
+Click to automatically copy and paste the image address of your chosen one.
 
 
 
@@ -27,9 +27,10 @@ Copy the image address of your chosen one.
 <br/>
   <div className="horizontal-scroll-wrapper squares">
     <div className="shake-slow shake-constant shake-constant--hover"></div>
-   
-    <div><img src="./images/grace.png" alt="grace"/></div>
-    <div><img src="./images/1.png" alt="1"/></div>
+
+    <div onClick={this.props.copyImageMethod}><img src="./images/grace.png" alt="grace"/></div>   
+    <div onClick={this.props.copyImageMethod}><img src="./images/1.png" alt="1"/></div>
+
     <div><img src="./images/soon.png" alt="soon"/></div>
     <div><img src="./images/sunken.jpg" alt="sunken"/></div>
     <div><img src="./images/endow.gif" alt="endow"/></div>

@@ -8,15 +8,16 @@ import CopyText from './CopyText';
 import CopyImage from './CopyImage';
 import ScrollSquares from './ScrollSquares';
 import ScrollSquaresImg from './ScrollSquaresImg';
-import GetGifs from './GetGifs';
 
+import Picker from './Picker'
 
 class Home extends Component {
   state = {
     stateful: true,
     top: "100px",
     disappear: false,
-    instructions:""
+    instructions:"",
+    img:""
   }
   
 
@@ -31,10 +32,16 @@ class Home extends Component {
 
 
   copyImageMethod=(text)=>{
-    console.log(text)
-    this.setState({img:text})
+    console.log(text.target.src)
+    this.setState({img:text.target.src})
   }
 
+
+  selectImage = (gif) => {
+    console.log('gif', gif)
+    this.setState({ img: gif.original.url })
+  }
+  
 
   handleScroll = () => {
 
@@ -85,7 +92,9 @@ class Home extends Component {
         <h2 className="explainShowcase">Or find a GIF of your choice
         -- Please ponder your choice, making a perfect match requires the visual representation to reflect the meaning of the messages. </h2>
         
-        <GetGifs/>
+        <div>
+        <Picker onSelected={this.selectImage} />
+      </div>
         <RecipeApp instructions={this.state.instructions} img={this.state.img}/> <br />
         
         
