@@ -18,8 +18,14 @@
 }
 
 
+
+
+
+@media (min-width: 500px) and (max-width: 1800px) {
+  
 #squareText:hover{
 
   transform: scale(1.8);
   z-index: 100;
 }
+  }

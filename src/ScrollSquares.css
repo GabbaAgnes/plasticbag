@@ -1,24 +1,4 @@
-/* Extra small devices (phones, 600px and down) 
-@media only screen and (max-width: 500px) {
-  .example {background: red;}
-}
 
-
-/* Medium devices (landscape tablets, 768px and up) 
-@media only screen and (min-width: 768px) {
-  .example {background: blue;}
-} 
-
-
-/* Large devices (laptops/desktops, 992px and up) 
-@media only screen and (min-width: 992px) {
-  .example {background: orange;}
-} 
-*/
-
-
-
- 
 
 
 /*square scrolls*/
@@ -29,10 +9,7 @@
 
 
 
-.horizontal-scroll-wrapper.squares{
-   box-sizing:border-box;
-  
-}
+
 
 .horizontal-scroll-wrapper.texts{
   box-sizing:border-box;
@@ -314,10 +291,7 @@
   transform-origin: right top;
 }
 
-.squares{
-  padding:30px 0 0 0;
 
-}
 
 .texts{
   padding:10px 0 0 0;
@@ -337,196 +311,8 @@
 
 
 
-.squares > div{
-  box-sizing:border-box;
- width:160px;
- height:160px;
- margin:10px;
- background-size: contain;
- background-repeat: no-repeat;
- background-position: center; 
-}
 
 
 
 
 
-/*images inside src  */
-
-.squares div:nth-child(1){
-  background-image: url("./images/train.png");
-  width: 300px;
-  height:300px;
-
-}
-
-.squares div:nth-child(2){
-  background-image: url("./images/grace.png");
-
-}
-
-
-.squares div:nth-child(3){
-  background-image: url("./images/1.png");
-
-}
-
-.squares div:nth-child(4){
-  background-image: url("./images/soon.png");
-
-}
-
-.squares div:nth-child(5){
-  background-image: url("./images/sunken.jpg");
-
-}
-
-.squares div:nth-child(6){
-  background-image: url("./images/endow.gif");
-
-}
-
-.squares div:nth-child(7){
-  background-image: url("./images/6ee.gif");
-
-}
-
-.squares div:nth-child(8){
-  background-image: url("./images/angel.jpg");
-
-}
-
-.squares div:nth-child(9){
-  background-image: url("./images/edit.png");
-
-}
-
-.squares div:nth-child(10){
-  background-image: url("./images/no.png");
-
-}
-
-.squares div:nth-child(11){
-  background-image: url("./images/try6.gif");
-
-}
-
-.squares div:nth-child(12){
-  background-image: url("./images/11.png");
-
-}
-
-.squares div:nth-child(13){
-  background-image: url("./images/ty4.gif");
-
-}
-
-.squares div:nth-child(14){
-  background-image: url("https://media.giphy.com/media/pL434y7GW8Ru8/giphy.gif");
-
-}
-
-.squares div:nth-child(15){
-  background-image: url("./images/2.jpg");
-
-}
-
-.squares div:nth-child(16){
-  background-image: url("./images/5.png");
-
-}
-
-.squares div:nth-child(17){
-  background-image: url("./images/6.png");
-
-}
-
-.squares div:nth-child(18){
-  background-image: url("./images/7.png");
-
-}
-
-.squares div:nth-child(19){
-  background-image: url("./images/8.png");
-
-}
-
-.squares div:nth-child(20){
-  background-image: url("./images/9.png");
-
-}
-
-.squares div:nth-child(21){
-  background-image: url("./images/10.png");
-
-}
-
-.squares div:nth-child(22){
-  background-image: url("./images/11.jpg");
-
-}
-
-.squares div:nth-child(23){
-  background-image: url("./images/sleep.png");
-
-}
-
-.squares div:nth-child(24){
-  background-image: url("./images/reborn.png");
-
-}
-
-.squares div:nth-child(25){
-  background-image: url("./images/pause.jpg");
-
-}
-
-.squares div:nth-child(26){
-  background-image: url("./images/whatif1.gif");
-
-}
-
-.squares div:nth-child(27){
-  background-image: url("./images/focus.gif");
-
-}
-
-.squares div:nth-child(28){
-  background-image: url("./images/read.jpg");
-
-}
-
-.squares div:nth-child(29){
-  background-image: url("./images/play.jpg");
-
-}
-
-.squares div:nth-child(30){
-  background-image: url("./images/tradeoff1.jpg");
-
-}
-
-.squares div:nth-child(31){
-  background-image: url("./images/stretched.gif");
-
-}
-
-.squares div:nth-child(32){
-  background-image: url("https://i-h1.pinimg.com/564x/12/3c/89/123c899c49333b96f0b052d3a82ee8b6.jpg");
-
-}
-
-
-.squares img{
-    opacity: 0;
-}
-
-
-#explainPicGif{
-  font-family: 'VT323', monospace;
-  color: red;
-  background-color:beige; 
-  width:70vw;
-  display: inline-block;
-  font-size: 25px;
-}

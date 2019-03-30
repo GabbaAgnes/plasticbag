@@ -1,7 +1,7 @@
 import React from 'react';
 import './CopyText.css';
 
-class CopyExample extends React.Component {
+class CopyText extends React.Component {
 
   constructor(props) {
     super(props);
@@ -19,6 +19,8 @@ class CopyExample extends React.Component {
             ref={(textarea) => this.textArea = textarea}
             value={this.props.copy}
           />
+
+          
        
       </div>
     );
@@ -26,4 +28,4 @@ class CopyExample extends React.Component {
 
 }
 
-export default CopyExample;
+export default CopyText;

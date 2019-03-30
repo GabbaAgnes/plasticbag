@@ -53,4 +53,5 @@
             background-color:beige; 
             display: inline-block;
             width: 70vw;
+            box-shadow: inset 0px 0px 2px 2px black;
           }

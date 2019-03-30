@@ -12,7 +12,7 @@ class RecipeInput extends Component {
     this.state = {
       
       instructions: props.instructions,
-      img: '',
+      img: props.img,
       abletoDelete:true
 
     };
@@ -22,7 +22,8 @@ class RecipeInput extends Component {
   }
     
     componentWillReceiveProps(newProps){
-      this.setState({instructions:newProps.instructions})
+      this.setState({instructions:newProps.instructions});
+      this.setState({img:newProps.img})
     }
 
   handleChange(e) {

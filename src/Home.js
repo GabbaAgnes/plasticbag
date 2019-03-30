@@ -4,8 +4,10 @@ import styled from 'styled-components'
 import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
 import './Home.css';
 import RecipeApp from './RecipeApp';
-import CopyExample from './CopyText';
+import CopyText from './CopyText';
+import CopyImage from './CopyImage';
 import ScrollSquares from './ScrollSquares';
+import ScrollSquaresImg from './ScrollSquaresImg';
 import GetGifs from './GetGifs';
 
 
@@ -26,6 +28,13 @@ class Home extends Component {
     console.log(text)
     this.setState({instructions:text})
   }
+
+
+  copyImageMethod=(text)=>{
+    console.log(text)
+    this.setState({img:text})
+  }
+
 
   handleScroll = () => {
 
@@ -65,19 +74,19 @@ class Home extends Component {
         <br /><br />
 
         <h1 className="explainShowcase">
-        Below paragraghs are taken from the book in no particular order; reading through these messages has been a wonderful experience, I start to rethink those actions in my life that 
-        I can improve upon as well as information that should be addressed.
+        Below paragraghs are taken from the book in no particular order; please take some time to read through.
         <div>------------------------------------------------</div>
         Each paragragh is one of the parent of the final hatched display, assign anyone by clicking on it--the highlighted
         edge indicates those words are inserted(copied) in the egg.  
         </h1>
         
         <ScrollSquares copyTextMethod={this.copyTextMethod}/>
+        <ScrollSquaresImg CopyImageMethod={this.copyImageMethod}/>
         <h2 className="explainShowcase">Or find a GIF of your choice
         -- Please ponder your choice, making a perfect match requires the visual representation to reflect the meaning of the messages. </h2>
         
         <GetGifs/>
-        <RecipeApp instructions={this.state.instructions}/> <br />
+        <RecipeApp instructions={this.state.instructions} img={this.state.img}/> <br />
         
         
 

@@ -30,9 +30,9 @@ h2{
   background-image: linear-gradient(to bottom, #e3c1d5, #e5a4c1, #e885a5, #e76584, #e2415d);
   width:60%;
   padding:7% 20% 10% 20%;
-  color:rgb(231, 229, 229);
-  font-size: 21px;
-  font-family: 'VT323', monospace;
+  color:beige;
+  font-size: 25px;
+  font-family: 'VT323', monospace,bold;
 }
 .white-block {
   background:rgb(175, 171, 171);

@@ -122,7 +122,7 @@ box-shadow: 14px 14px 16px -1px rgba(204,170,34,0.69);
   .modal-right h2 {
     color: red;
     margin: 0;
-    font-size: 28px;
+    font-size: 18px;
     font-family: 'VT323', monospace;
 
   }
@@ -131,7 +131,7 @@ box-shadow: 14px 14px 16px -1px rgba(204,170,34,0.69);
     text-align: center;
     
     padding: 0 20px;
-    font-size: 21px;
+    font-size: 16px;
     font-family: 'VT323', monospace;
   }
   .modal-right .close {
@@ -171,7 +171,7 @@ box-shadow: 14px 14px 16px -1px rgba(204,170,34,0.69);
       text-align: center;
       
       padding: 0 20px;
-      font-size: 16px;
+      font-size: 14px;
       font-family: 'VT323', monospace;
     }
     }
@@ -183,7 +183,7 @@ box-shadow: 14px 14px 16px -1px rgba(204,170,34,0.69);
       text-align: center;
       
       padding: 0 20px;
-      font-size: 12px;
+      font-size: 11px;
       font-family: 'VT323', monospace;
     }
     }

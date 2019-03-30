@@ -7,8 +7,8 @@ import './Modal.css';
 class Modal extends Component {
     state = {
         
-        title: "A WEBSITE DEDICATED TO THOSE WHO HAS NOT READ THE BOOK",
-        description: "Inspirational knowledge from Greg Mckeown’s book 'Essentialism-The disciplined Pursuit of Less' combined with groovy artworks.",
+        title: "Essentialism",
+        description: "The way of the Essentialist means living by design, not by default. Instead of making choices reactively,the Essentialist deliberately distinguishes the vital few from the trivial many. It is about making the wisest possible investment of your time and energy in order to operate at your highest point of contribution by doing only what is essential.",
        
     }
 
@@ -36,3 +36,5 @@ class Modal extends Component {
 }
 
 export default Modal;
+
+

@@ -24,7 +24,7 @@ class Landing extends Component {
 
     return (
       <div>
-      <p id="boldWords" className="shake-little shake-constant shake-constant--hover">Click the dude below to begin</p>
+      <p id="boldWords" className="shake-little shake-constant shake-constant--hover">Click on the dude below</p>
       <ShoppingCart />
       <section className="usethis" style={sectionStyle}>
 
@@ -40,15 +40,11 @@ class Landing extends Component {
         <p className="red">
         
         <br />
-          The way of the Essentialist means living<br /><br />
-          by design, not by default. Instead of making <br /><br />
-          choices reactively,the Essentialist deliberately<br /> <br />
-          distinguishes the vital few from the trivial many.<br /><br />
-          It is about making the wisest possible investment<br /><br />
-          of your time and energy in order to operate at your<br /><br />
-          highest point of contribution by doing only what is <br /><br />
-          essential.
-      
+        A WEBSITE DEDICATED TO THOSE WHO HAVE NOT READ THE BOOK:<br/><br/>
+
+        Inspirational knowledge from Greg Mckeown’s book <br/>
+        'Essentialism-The disciplined Pursuit of Less' <br/>
+        combined with groovy artworks.
         
         
         </p></div>
@@ -57,7 +53,7 @@ class Landing extends Component {
 
       
       <div>
-        <h2>Below creature will take you home</h2>
+        <h2>Below creature will start the app</h2>
         <Link to='/home' onClick={()=>{window.scrollTo(0,0)}}>
         
                <img className="shake-slow shake-constant shake-constant--hover" border="0" alt="landingImage" src="./images/hello.png" width="100" height="100"></img>

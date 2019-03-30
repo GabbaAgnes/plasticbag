@@ -57,6 +57,7 @@ class RecipeApp extends Component {
         { showForm ?
             <RecipeInput
               instructions={this.props.instructions} 
+              img={this.props.img}
               onSave={this.handleSave}
               onClose={() => this.setState({showForm: false})}  
             /> :
