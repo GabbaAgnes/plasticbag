@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
 import './Home.css';
 import RecipeApp from './RecipeApp';
 import CopyText from './CopyText';
-import CopyImage from './CopyImage';
+
 import ScrollSquares from './ScrollSquares';
 import ScrollSquaresImg from './ScrollSquaresImg';
 
@@ -41,7 +41,7 @@ class Home extends Component {
     console.log('gif', gif)
     this.setState({ img: gif.original.url })
   }
-  
+
 
   handleScroll = () => {
 
@@ -88,7 +88,7 @@ class Home extends Component {
         </h1>
         
         <ScrollSquares copyTextMethod={this.copyTextMethod}/>
-        <ScrollSquaresImg CopyImageMethod={this.copyImageMethod}/>
+        <ScrollSquaresImg copyImageMethod={this.copyImageMethod}/>
         <h2 className="explainShowcase">Or find a GIF of your choice
         -- Please ponder your choice, making a perfect match requires the visual representation to reflect the meaning of the messages. </h2>
         
