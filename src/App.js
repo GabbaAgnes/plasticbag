@@ -24,10 +24,10 @@ class App extends Component {
              <Content>
               <Link to='/'>
             
-               <img className="shake-slow shake-constant shake-constant--hover" border="0" alt="landingImage" src="./images/101.jpg" width="100" height="100"></img>
-
+               <img border="0" alt="landingImage" src="./images/101.jpg" width="100" height="100"></img>
+               
               
-              </Link>
+              </Link><div id="topInstruction">SCROLL DOWN</div>
               </Content>
 
 

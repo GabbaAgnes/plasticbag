@@ -15,11 +15,14 @@ class Navbar extends Component {
     return (
       <header>
         <br/>
-        <h2 id="explainAdding" className="shake-little shake-constant shake-constant--hover">TIME FOR HATCHING</h2>
-        <nav className="shake-slow shake-constant shake-constant--hover">
-       <a id="clickAdd" onClick={this.props.onNewShowcase}>Click to COMBINE both parents</a>
+        <h4 id="explainAdding" >To hatch a display to add to below collection with the above materials: simply click on your preferred paragraph, it will be automatically pasted inside of "Click to Hatch" <br/> Same with your choice of img/gif, click any and its url will be automatically pasted. <br/> ↓  </h4>
+        
+       
+        <nav >
+       <a id="clickAdd" onClick={this.props.onNewShowcase} >Click to Hatch</a>
           
         </nav>
+        <br /><br /><h2 id="display">DISPLAYS</h2>
       </header>
     );
   }

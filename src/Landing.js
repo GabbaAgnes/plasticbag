@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './Landing.css';
-import ShoppingCart from './ShoppingCart'
 import Background from './images/photo2.jpg'
 
 import Home from './Home'
 import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
 
 
-var sectionStyle = {
+/*var sectionStyle = {
 
   backgroundImage: `url(${Background})`,
   
   
-};
+};*/
 
 
 
@@ -24,16 +23,10 @@ class Landing extends Component {
 
     return (
       <div>
-      <p id="boldWords" className="shake-little shake-constant shake-constant--hover">Click on the dude below</p>
-      <ShoppingCart />
-      <section className="usethis" style={sectionStyle}>
-
-        <div className="Landing">
-    
-
-
-        </div>
-
+      
+     
+  
+     
         <div className="scallop-up"></div>
         <div className="colour-block">
         <div className="line">
@@ -45,15 +38,16 @@ class Landing extends Component {
         Inspirational knowledge from Greg Mckeown’s book <br/>
         'Essentialism-The disciplined Pursuit of Less' <br/>
         combined with groovy artworks.
+        <br/> ↓ 
+        <br/> ↓
         
         
         </p></div>
         </div>
         <div class="scallop-down"></div>
 
-      
       <div>
-        <h2>Below creature will start the app</h2>
+        <h2>Click below creature to discover content of the book</h2>
         <Link to='/home' onClick={()=>{window.scrollTo(0,0)}}>
         
                <img className="shake-slow shake-constant shake-constant--hover" border="0" alt="landingImage" src="./images/hello.png" width="100" height="100"></img>
@@ -63,7 +57,7 @@ class Landing extends Component {
 
 
 
-      </section>
+     
       </div>
     );
   }
@@ -81,4 +75,6 @@ export default Landing;
 
 
           <Typist.Delay ms={5000} />
+
+          <section className="usethis" style={sectionStyle}>
 */

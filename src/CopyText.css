@@ -7,25 +7,46 @@
 
 
 
-
+@media (min-width: 220px) and (max-width: 500px) {
 #squareText{
-    background-image: url("https://media.giphy.com/media/TxVVB6PfWMjE4/giphy.gif");
-    width: 140px;
+    background-color:black;
+    width: 85%;
     height: 135px;
     color: whitesmoke;
+    font-size:16px;
     font-family: 'Margarine', cursive;
     transition: all .2s ease-in;
+    padding-top: 5px;
+}
 }
 
 
+@media (min-width: 500px) and (max-width: 900px) {
+  #squareText{
+    background-color:black;
 
-
-
-@media (min-width: 500px) and (max-width: 1800px) {
-  
-#squareText:hover{
-
-  transform: scale(1.8);
-  z-index: 100;
-}
+      width: 85%;
+      height: 135px;
+      color: whitesmoke;
+      font-size:18px;
+      font-family: 'Margarine', cursive;
+      transition: all .2s ease-in;
+      padding-top: 5px;
   }
+  }
+
+  @media (min-width: 900px) and (max-width: 2200px) {
+    #squareText{
+      background-color:black;
+
+        width: 85%;
+        height: 135px;
+        color: whitesmoke;
+        font-size:21px;
+        font-family: 'Margarine', cursive;
+        transition: all .2s ease-in;
+        padding-top: 5px;
+    }
+    }
+
+

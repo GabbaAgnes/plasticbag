@@ -78,7 +78,7 @@ class RecipeInput extends Component {
             onChange={this.handleChange}/>
           
           <div className='recipe-form-line'>
-            <label id="pasteUrl" className="shake-slow shake-constant shake-constant--hover" htmlFor='recipe-img-input'>Paste Img/Gif Url</label>
+            <label id="pasteUrl" htmlFor='recipe-img-input'>Paste Img/Gif Url</label>
             <input
               className="copiedInput"
               id='recipe-img-input'

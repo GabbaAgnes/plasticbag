@@ -87,14 +87,15 @@ class Home extends Component {
         edge indicates those words are inserted(copied) in the egg.  
         </h1>
         
-        <ScrollSquares copyTextMethod={this.copyTextMethod}/>
+        <ScrollSquares copyTextMethod={this.copyTextMethod}/><br /><br />
         <ScrollSquaresImg copyImageMethod={this.copyImageMethod}/>
         <h2 className="explainShowcase">Or find a GIF of your choice
-        -- Please ponder your choice, making a perfect match requires the visual representation to reflect the meaning of the messages. </h2>
+        </h2>
         
         <div>
         <Picker onSelected={this.selectImage} />
       </div>
+      
         <RecipeApp instructions={this.state.instructions} img={this.state.img}/> <br />
         
         

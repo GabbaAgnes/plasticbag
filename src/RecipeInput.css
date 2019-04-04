@@ -6,11 +6,11 @@
     margin: 10px;
     padding: 15px;
     border-radius: 10px;
-    border: 7px solid green;
+    border: 7px solid white;
   }
   
   .recipe-form input[type=text] {
-      background: beige;
+      background: white;
       padding: 5px 8px;
       box-sizing: border-box;
   }
@@ -28,14 +28,14 @@
   }
 
   .recipe-form-line label {
-    color: red;
+    color: black;
     font-family: 'Margarine', cursive;
 
   }
   
   .copiedInput{
     border-radius: 45px;
-    background-color: beige;
+    background-color: white;
 
   }
 
@@ -43,13 +43,13 @@
 
   
   .close-button {
-    background-color: beige;
+    background-color: white;
     background-repeat: no-repeat;
     border: none;
     cursor: pointer;
     overflow: hidden;
     font-size: 2em;
-    color: red;
+    color: black;
     text-shadow: 0 1px 0 #fff;
     align-self: flex-end;
     border-radius: 45px;
@@ -68,7 +68,7 @@
   }
 
   #pasteUrl{
-    background-color: beige;
+    background-color: white;
     border-radius: 45px;
     
   }
@@ -85,7 +85,7 @@
   .btn {
     width: 6.4rem;
     line-height: 6.4rem;
-    background: beige;
+    background: white;
     border-radius: 50%;
     text-align: center;
     margin: 1.6rem;
@@ -108,7 +108,7 @@
     bottom: 0;
     right: 0;
     border-radius: 50%;
-    background: beige;
+    background: white;
     -webkit-animation: wutBefore 0.8s .4s ease-out infinite;
             animation: wutBefore 0.8s .4s ease-out infinite;
     z-index: -1;
@@ -121,7 +121,7 @@
     bottom: 0;
     right: 0;
     border-radius: 50%;
-    background: beige;
+    background: white;
     -webkit-animation: wut 0.8s ease-out infinite;
             animation: wut 0.8s ease-out infinite;
     z-index: -1;

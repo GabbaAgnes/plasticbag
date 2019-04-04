@@ -16,24 +16,14 @@ background-repeat: no-repeat;
   background-size: contain;
 
 }
-.Landing{
-   margin-top: 85%;
-  
-}
+
 
 h2{
   font-family: 'VT323', monospace;
   color:black;
 }
 
-.colour-block {
-  background-image: linear-gradient(to bottom, #e3c1d5, #e5a4c1, #e885a5, #e76584, #e2415d);
-  width:60%;
-  padding:7% 20% 10% 20%;
-  color:beige;
-  font-size: 25px;
-  font-family: 'VT323', monospace,bold;
-}
+
 .white-block {
   background:rgb(175, 171, 171);
   width:60%;
@@ -64,29 +54,33 @@ border-radius: 50px 50px 0px 0px;
 
 
 .red{
-  background-image: radial-gradient(circle, #e66584, #dd5b78, #d3516c, #ca4760, #c03d54);
-  border-radius: 50px;
+  background-image: radial-gradient(circle, #630e22, #6a0d21, #4f0e1b, #3a0610, #310910);
+  border-radius: 25px;
 
   
 }
 
-#boldWords{
-  font-size:25px;
-  font-family: 'VT323', monospace;
 
-}
 
-/*background-image: linear-gradient(90deg, #b3274d 32.61%, #a88494 32.61%, #a88494 50%, #b3274d 50%, #b3274d 82.61%, #a88494 82.61%, #a88494 100%);
-  background-size: 46.00px 46.00px;
-  
-  
-  
-.line{
-  border-left: 6px solid green;
-  height: 500px;
-  position: absolute;
-  left: 50%;
-  margin-left: -3px;
-  top: 0;
-}
-*/
+
+    @media (min-width: 220px) and (max-width: 500px) {
+    .colour-block {
+      background-image: linear-gradient(to bottom, #e3c1d5, #e5a4c1, #e885a5, #e76584, #e2415d);
+      width:60%;
+      padding:7% 20% 10% 20%;
+      color:beige;
+      font-size: 15px;
+      font-family: 'Special Elite';
+    }
+  }
+
+  @media (min-width: 500px) and (max-width: 2200px) {
+    .colour-block {
+      background-image: linear-gradient(to bottom, #e3c1d5, #e5a4c1, #e885a5, #e76584, #e2415d);
+      width:60%;
+      padding:7% 20% 10% 20%;
+      color:beige;
+      font-size: 25px;
+      font-family: 'Special Elite';
+    }
+  }

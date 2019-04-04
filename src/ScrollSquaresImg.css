@@ -15,10 +15,11 @@
       margin-left: -90px;
       margin-right: 0;
       margin-bottom: -65vw;
-      width:220px;
+      width:240px;
       max-height:85vw;
-      background-image: url("https://media.giphy.com/media/3oKIPc9VZj4ylzjcys/giphy.gif");
-      background-size: cover;
+      background-color: black;
+
+
       overflow-y:auto;
       overflow-x:hidden;
       transform:rotate(-90deg) translateY(-80px);
@@ -33,10 +34,9 @@
         margin-left: -110px;
         margin-right: 0;
         margin-bottom: -60vw;
-        width:220px;
+        width:240px;
         max-height:85vw;
-        background-image: url("https://media.giphy.com/media/3oKIPc9VZj4ylzjcys/giphy.gif");
-        background-size: cover;
+        background-color: black;
         overflow-y:auto;
         overflow-x:hidden;
         transform:rotate(-90deg) translateY(-80px);
@@ -51,10 +51,9 @@
       margin-left: -80px;
       margin-right: 0;
       margin-bottom: -55vw;
-      width:220px;
+      width:240px;
       max-height:85vw;
-      background-image: url("https://media.giphy.com/media/3oKIPc9VZj4ylzjcys/giphy.gif");
-      background-size: cover;
+      background-color: black;
       overflow-y:auto;
       overflow-x:hidden;
       transform:rotate(-90deg) translateY(-80px);
@@ -70,10 +69,9 @@
         margin-left: -65px;
         margin-right: 0;
         margin-bottom: -55vw;
-        width:180px;
+        width:240px;
         max-height:85vw;
-        background-image: url("https://media.giphy.com/media/3oKIPc9VZj4ylzjcys/giphy.gif");
-      background-size: cover;
+        background-color: black;
         overflow-y:auto;
         overflow-x:hidden;
         transform:rotate(-90deg) translateY(-80px);
@@ -88,10 +86,9 @@
         margin-left: -60px;
         margin-right: 0;
         margin-bottom: -55vw;
-        width:180px;
+        width:240px;
         max-height:85vw;
-        background-image: url("https://media.giphy.com/media/3oKIPc9VZj4ylzjcys/giphy.gif");
-      background-size: cover;
+        background-color: black;
         overflow-y:auto;
         overflow-x:hidden;
         transform:rotate(-90deg) translateY(-80px);
@@ -106,10 +103,9 @@
             margin-left: -60px;
             margin-right: 0;
             margin-bottom: -35vw;
-            width:180px;
+            width:240px;
             max-height:85vw;
-            background-image: url("https://media.giphy.com/media/3oKIPc9VZj4ylzjcys/giphy.gif");
-      background-size: cover;
+            background-color: black;
             overflow-y:auto;
             overflow-x:hidden;
             transform:rotate(-90deg) translateY(-80px);
@@ -124,10 +120,9 @@
               margin-left: -90px;
               margin-right: 0;
               margin-bottom: -15vw;
-              width:180px;
+              width:240px;
               max-height:90vw;
-              background-image: url("https://media.giphy.com/media/3oKIPc9VZj4ylzjcys/giphy.gif");
-      background-size: cover;
+              background-color: black;
               overflow-y:auto;
               overflow-x:hidden;
               transform:rotate(-90deg) translateY(-80px);
@@ -155,8 +150,8 @@
 
               .squares > div{
                 box-sizing:border-box;
-               width:160px;
-               height:160px;
+               width:200px;
+               height:200px;
                margin:10px;
                background-size: contain;
                background-repeat: no-repeat;
@@ -166,8 +161,7 @@
 
 .squares div:nth-child(1){
     background-image: url("./images/train.png");
-    width: 300px;
-    height:300px;
+    
   
   }
   
@@ -334,11 +328,11 @@
   
   
   #explainPicGif{
-    font-family: 'VT323', monospace;
-    color: red;
-    background-color:beige; 
+    font-family: interface, Helvetica Neue, helvetica, sans-serif;
+    color: white;
+    background-color:black; 
     width:70vw;
     display: inline-block;
     font-size: 25px;
-    box-shadow: inset 0px 0px 2px 4px black;
+    box-shadow: inset 0px 0px 4px 5px white;
   }              

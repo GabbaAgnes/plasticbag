@@ -4,3 +4,9 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+
+  #topInstruction{
+    font-size: 25px;
+    font-family: 'Special Elite';
+
+  }
