@@ -2,7 +2,7 @@
 
 .surroundingCopy{
 
-    background-color:white;
+    background-color:black;
 }
 
 
@@ -16,7 +16,9 @@
     font-size:16px;
     font-family: 'Margarine', cursive;
     transition: all .2s ease-in;
-    padding-top: 5px;
+    padding-top: 15px;
+    border: black;
+
 }
 }
 
@@ -31,7 +33,9 @@
       font-size:18px;
       font-family: 'Margarine', cursive;
       transition: all .2s ease-in;
-      padding-top: 5px;
+      padding-top: 15px;
+      border: black;
+
   }
   }
 
@@ -45,7 +49,8 @@
         font-size:21px;
         font-family: 'Margarine', cursive;
         transition: all .2s ease-in;
-        padding-top: 5px;
+        padding-top: 15px;
+        border: black;
     }
     }
 

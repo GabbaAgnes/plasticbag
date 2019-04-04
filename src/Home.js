@@ -82,15 +82,14 @@ class Home extends Component {
 
         <h1 className="explainShowcase">
         Below paragraghs are taken from the book in no particular order; please take some time to read through.
-        <div>------------------------------------------------</div>
-        Each paragragh is one of the parent of the final hatched display, assign anyone by clicking on it--the highlighted
-        edge indicates those words are inserted(copied) in the egg.  
-        </h1>
+        <div>↓ ↓ ↓ ↓ ↓</div><br />
+        
+        </h1><br /><br />
         
         <ScrollSquares copyTextMethod={this.copyTextMethod}/><br /><br />
         <ScrollSquaresImg copyImageMethod={this.copyImageMethod}/>
-        <h2 className="explainShowcase">Or find a GIF of your choice
-        </h2>
+        <div className="explainShowcase">Or find a GIF of your choice
+        </div><br /><br />
         
         <div>
         <Picker onSelected={this.selectImage} />

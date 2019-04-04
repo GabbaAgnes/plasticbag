@@ -15,7 +15,8 @@ class Navbar extends Component {
     return (
       <header>
         <br/>
-        <h4 id="explainAdding" >To hatch a display to add to below collection with the above materials: simply click on your preferred paragraph, it will be automatically pasted inside of "Click to Hatch" <br/> Same with your choice of img/gif, click any and its url will be automatically pasted. <br/> ↓  </h4>
+        <h4 id="explainAdding" >To hatch a display to add to below collection with the above materials: simply click on your preferred paragraph, it will be automatically pasted inside of "Click to Hatch". <br/> <br/>Same with your choice of img/gif, click any and its url will be automatically pasted. <br/>
+        Once done, open "Click to Hatch" to "HATCH"<br/> ↓ ↓ ↓ ↓ ↓ </h4>
         
        
         <nav >

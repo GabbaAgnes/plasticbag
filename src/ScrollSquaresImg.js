@@ -16,13 +16,13 @@ class ScrollSquaresImg extends Component {
 <div>
 
 <div id="explainPicGif">
-Below is my collection of img/gif<br/> scroll down on the images to view collection. <br/> ↓ 
-<br/>
+Below is my collection of img/gif<br/> scroll up and down on the images to view collection. <br/> ⇵ 
+<br/><br/>
 
 
 
 
-</div><br/><br/>
+</div><br/>
 <br/>
   <div className="horizontal-scroll-wrapper squares">
     <div></div>

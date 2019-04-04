@@ -34,7 +34,7 @@
   }
   
   .copiedInput{
-    border-radius: 45px;
+    border-radius: 25px;
     background-color: white;
 
   }
@@ -69,7 +69,7 @@
 
   #pasteUrl{
     background-color: white;
-    border-radius: 45px;
+    border-radius: 25px;
     
   }
 

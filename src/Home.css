@@ -7,7 +7,7 @@
     padding: 2em;
     border: 2px solid black;
     
-    background-image: url("https://media.giphy.com/media/8PEbUBEwxktyNeqVZ4/giphy.gif");
+    background-image: url("https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif");
 
   }
   
@@ -18,7 +18,7 @@
     .homewrapper{
       padding: 1em;
       border: 2px solid palevioletred;
-      background-image: url("https://media.giphy.com/media/8PEbUBEwxktyNeqVZ4/giphy.gif");    }
+      background-image: url("https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif");    }
     
     }
 
@@ -27,31 +27,45 @@
       .homewrapper{
         padding: 0.5em;
         border: 2px solid palevioletred;
-        background-image: url("https://media.giphy.com/media/8PEbUBEwxktyNeqVZ4/giphy.gif");      }
+        background-image: url("https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif");      }
     }
   
       @media (min-width: 500px) and (max-width: 600px) {
         .homewrapper{
           padding: 0.25em;
           border: 2px solid palevioletred;
-          background-image: url("https://media.giphy.com/media/8PEbUBEwxktyNeqVZ4/giphy.gif");        }
+          background-image: url("https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif");        }
         }
   
         @media (min-width: 320px) and (max-width: 500px) {
           .homewrapper{
             padding: 0em;
             border: 0px solid palevioletred;
-            background-image: url("https://media.giphy.com/media/8PEbUBEwxktyNeqVZ4/giphy.gif");          }
+            background-image: url("https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif");          }
           }
   
       
       
-      
+          @media (min-width: 320px) and (max-width: 500px) {
           .explainShowcase{
-            font-family: 'VT323', monospace;
-            color: red;
-            background-color:beige; 
+            font-family: interface, Helvetica Neue, helvetica, sans-serif;
+            color: white;
+            background-color:black; 
             display: inline-block;
             width: 70vw;
-            box-shadow: inset 0px 0px 2px 2px black;
+            border: 2px solid #f1f1f1;    
+            font-size:14px;    
+            }
           }
+
+          @media (min-width: 500px) and (max-width: 2200px) {
+            .explainShowcase{
+              font-family: interface, Helvetica Neue, helvetica, sans-serif;
+              color: white;
+              background-color:black; 
+              display: inline-block;
+              width: 70vw;
+              border: 2px solid #f1f1f1;    
+              font-size:20px;    
+              }
+            }

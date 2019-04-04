@@ -13,8 +13,9 @@ class ScrollSquares extends Component {
         <div id="dialog-window">
 
   <div id="scrollable-content">
-    <div>
-    <br/><div><CopyText copyTextMethod={this.props.copyTextMethod} copy={"There are three deeply entrenched assumptions we must conquer to live the way of the Essentialist: “I have to,” “It’s all important,” and “I can do both.” To embrace the essence of Essentialism requires we replace these assumptions with three core truth: “I choose to,” “Only a few things really matter,” and “I can do anything but not everything.” These simple truths awaken us from our non-essential stupor."}/></div>
+    <div id="animated-shadow-text">
+    <br/><div><CopyText copyTextMethod={this.props.copyTextMethod} copy={"Scroll down to read through the paragraghs "}/></div>
+     <br/><div><CopyText copyTextMethod={this.props.copyTextMethod} copy={"There are three deeply entrenched assumptions we must conquer to live the way of the Essentialist: “I have to,” “It’s all important,” and “I can do both.” To embrace the essence of Essentialism requires we replace these assumptions with three core truth: “I choose to,” “Only a few things really matter,” and “I can do anything but not everything.” These simple truths awaken us from our non-essential stupor."}/></div>
         <br/><div><CopyText copyTextMethod={this.props.copyTextMethod} copy={"Our highest priority is to protect our ability to prioritize. "}/></div>
         <br/><div><CopyText copyTextMethod={this.props.copyTextMethod} copy={"If the answer isn’t a definite yes then it should be a no. An Essentialist uses narrow, explicit criteria like “Is this exactly what I am looking for?”"}/></div>
         <br/><div><CopyText copyTextMethod={this.props.copyTextMethod} copy={"Courage is grace under pressure. —Ernest Hemingway"}/></div>
