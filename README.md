@@ -22,4 +22,4 @@
 
 ## View the hatched display
 
-![alt text](https://raw.githubusercontent.com/GabbaAgnes/plasticbag/master/public/images/s5.png)
+![alt text](https://raw.githubusercontent.com/GabbaAgnes/plasticbag/master/public/images/s6.png)
