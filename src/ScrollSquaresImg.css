@@ -8,7 +8,7 @@
 
   /*images*/
 
-  @media (min-width: 1300px) and (max-width: 2200px) {
+  @media (min-width: 1300px) and (max-width: 2500px) {
     .horizontal-scroll-wrapper.squares{
       box-sizing:border-box;
       display:block;

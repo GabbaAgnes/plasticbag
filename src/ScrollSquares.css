@@ -35,7 +35,7 @@
   
 
 
-@media (min-width: 500px) and (max-width: 2200px) {
+@media (min-width: 500px) and (max-width: 2500px) {
   #dialog-window {
     height: 400px;
     border: 4px white solid;

@@ -74,7 +74,7 @@ border-radius: 50px 50px 0px 0px;
     }
   }
 
-  @media (min-width: 500px) and (max-width: 2200px) {
+  @media (min-width: 500px) and (max-width: 2500px) {
     .colour-block {
       background-image: linear-gradient(to bottom, #e3c1d5, #e5a4c1, #e885a5, #e76584, #e2415d);
       width:60%;
